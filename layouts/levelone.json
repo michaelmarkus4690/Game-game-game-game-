@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3797121001947983,
+    "zoomFactor": 0.28172599320796576,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -28,27 +28,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 164,
-      "layer": "",
-      "name": "Hero",
-      "persistentUuid": "eb77c47a-5448-4267-9b8b-3d3d8faf90f6",
-      "width": 207,
-      "x": 33,
-      "y": 498,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
       "height": 16,
       "layer": "HUD",
       "name": "HealthBar",
       "persistentUuid": "ec888145-29e4-4ed4-b659-f9dd92ea89a3",
-      "width": 504,
+      "width": 500,
       "x": 18,
       "y": 65,
       "zOrder": 2,
@@ -82,8 +66,247 @@
       "persistentUuid": "dd6b185c-840a-403e-b007-209d3dc55b10",
       "width": 5856,
       "x": 0,
-      "y": 656,
+      "y": 1017,
       "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 664,
+      "layer": "",
+      "name": "Hero",
+      "persistentUuid": "299ca040-f470-44ff-937e-3523826fd616",
+      "width": 664,
+      "x": 86,
+      "y": 638,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 93,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "4d381a3a-41c1-4d70-a756-b92a22868673",
+      "width": 2376,
+      "x": -1,
+      "y": 1052,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1106,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "d21374b6-44d2-4919-94a8-64586a1b942a",
+      "width": 4046,
+      "x": -1,
+      "y": -24,
+      "zOrder": -100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 134,
+      "layer": "HUD",
+      "name": "GearsIcon",
+      "persistentUuid": "1c7a8ef7-acc3-4981-a9cc-5be73670682e",
+      "width": 163,
+      "x": 1750,
+      "y": 10,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "80a06294-2f7c-4943-977c-a986c0d2f71e",
+      "width": 69,
+      "x": 769,
+      "y": 956,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 106,
+      "layer": "HUD",
+      "name": "GearsDisplay",
+      "persistentUuid": "4739cdfd-8368-4727-8750-0991190c4580",
+      "width": 100,
+      "x": 1651,
+      "y": 25,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "7acb683d-aea2-4cec-b4d6-c20f297e6ea5",
+      "width": 69,
+      "x": 858,
+      "y": 959,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "6e5a4a66-b0f7-47d2-87b8-66535cd0f739",
+      "width": 69,
+      "x": 940,
+      "y": 961,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "341d92db-7445-4130-b97d-7f96dcba41f1",
+      "width": 69,
+      "x": 1017,
+      "y": 959,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "64a750a7-b596-4084-8057-e22f4c49ab3a",
+      "width": 69,
+      "x": 1187,
+      "y": 959,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "7416048b-59da-44c1-894a-928b22f76660",
+      "width": 69,
+      "x": 1107,
+      "y": 956,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "67e11181-07db-42cd-8904-31dab7b40b13",
+      "width": 69,
+      "x": 1261,
+      "y": 957,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "3d025c2e-9e9a-4b91-bb86-34f89a173062",
+      "width": 69,
+      "x": 1427,
+      "y": 959,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 74,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "398cd895-fcfa-4975-acb8-3379cd455bf0",
+      "width": 69,
+      "x": 1352,
+      "y": 959,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "Lighting",
+      "name": "Lighting",
+      "persistentUuid": "65f3db2a-ce9f-4b4b-82dd-b3bda2ef139b",
+      "width": 0,
+      "x": 268,
+      "y": 80,
+      "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -94,11 +317,11 @@
       "height": 0,
       "layer": "",
       "name": "Damage",
-      "persistentUuid": "7f524cb0-3476-49d7-a16d-68e7fcab2d3e",
+      "persistentUuid": "b1cf6e5a-4b9c-4528-8174-df6c340ce52d",
       "width": 0,
-      "x": 638,
-      "y": 480,
-      "zOrder": 6,
+      "x": 640,
+      "y": 871,
+      "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -107,14 +330,46 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 704,
-      "layer": "Background Layer",
-      "name": "Sky",
-      "persistentUuid": "60d74935-ab3c-4810-b170-14aa95117e2a",
-      "width": 5857,
-      "x": -1,
-      "y": -48,
-      "zOrder": 7,
+      "height": 99,
+      "layer": "",
+      "name": "BirdOne",
+      "persistentUuid": "4b7372c9-644d-4642-b571-b3f9c40c22c9",
+      "width": 137,
+      "x": 82,
+      "y": 211,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "layer": "",
+      "name": "BirdOne",
+      "persistentUuid": "3c47c804-2ddb-4db4-ab9b-20fbd02d72a0",
+      "width": 137,
+      "x": 139,
+      "y": 139,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 99,
+      "layer": "",
+      "name": "BirdOne",
+      "persistentUuid": "9aa2305e-9f9c-401f-9645-a3c643dffb9c",
+      "width": 137,
+      "x": 200,
+      "y": 194,
+      "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -160,6 +415,25 @@
           "HealToBeApplied": 0
         },
         {
+          "name": "PlatformerCharacterAnimator",
+          "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator",
+          "EnableAnimationChanges": true,
+          "EnableHorizontalFlipping": true,
+          "IdleAnimationName": "Idle",
+          "RunAnimationName": "Run",
+          "JumpAnimationName": "Jump",
+          "FallAnimationName": "Fall",
+          "ClimbAnimationName": "Climb",
+          "PlatformerBehavior": "PlatformerObject",
+          "Animation": "Animation",
+          "Flippable": "Flippable"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "jumpSpeed": 800,
+          "jumpSustainTime": 0.2,
+          "maxSpeed": 300,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -167,14 +441,9 @@
           "deceleration": 1500,
           "gravity": 1000,
           "ignoreDefaultControls": false,
-          "jumpSpeed": 600,
-          "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
           "maxFallingSpeed": 700,
-          "maxSpeed": 250,
-          "name": "PlatformerObject",
           "slopeMaxAngle": 60,
-          "type": "PlatformBehavior::PlatformerObjectBehavior",
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
@@ -192,36 +461,1952 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "23bf29e1210d5a7ced8d1bc1b0d487f437496ef525a0fcd55a74e6860aebb0ec_Red Box_Shadow.png",
-                  "points": [],
+                  "image": "alex.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
-                    "x": 3.5,
-                    "y": 4.5
+                    "x": 324.5,
+                    "y": 103
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 390,
+                    "y": 281
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3.5,
-                        "y": 4
+                        "x": 394,
+                        "y": 562
                       },
                       {
-                        "x": 100,
-                        "y": 4
+                        "x": 401.5,
+                        "y": 531.5
                       },
                       {
-                        "x": 99.5,
-                        "y": 100.5
+                        "x": 403.5,
+                        "y": 468.5
                       },
                       {
-                        "x": 3.5,
-                        "y": 100.5
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walk",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.12,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking0.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walk",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking2.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking3.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking4.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking5.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking6.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex walking7.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Jump",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex jump.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Death",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "alex dead.png",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 380.5,
+                      "y": 225.5
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 324.5,
+                    "y": 103
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 390,
+                    "y": 281
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 394,
+                        "y": 562
+                      },
+                      {
+                        "x": 401.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 403.5,
+                        "y": 468.5
+                      },
+                      {
+                        "x": 406.5,
+                        "y": 421
+                      },
+                      {
+                        "x": 395,
+                        "y": 392.5
+                      },
+                      {
+                        "x": 381.5,
+                        "y": 425.5
+                      },
+                      {
+                        "x": 361.5,
+                        "y": 448.5
+                      },
+                      {
+                        "x": 369,
+                        "y": 493.5
+                      },
+                      {
+                        "x": 341.5,
+                        "y": 531.5
+                      },
+                      {
+                        "x": 343.5,
+                        "y": 600
+                      },
+                      {
+                        "x": 290,
+                        "y": 606.5
+                      },
+                      {
+                        "x": 292,
+                        "y": 565.5
+                      },
+                      {
+                        "x": 312,
+                        "y": 557
+                      },
+                      {
+                        "x": 305.5,
+                        "y": 500
+                      },
+                      {
+                        "x": 314,
+                        "y": 426.5
+                      },
+                      {
+                        "x": 332,
+                        "y": 401
+                      },
+                      {
+                        "x": 306.5,
+                        "y": 380
+                      },
+                      {
+                        "x": 303.5,
+                        "y": 336
+                      },
+                      {
+                        "x": 296,
+                        "y": 284
+                      },
+                      {
+                        "x": 316,
+                        "y": 272.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 249.5
+                      },
+                      {
+                        "x": 309,
+                        "y": 224
+                      },
+                      {
+                        "x": 345.5,
+                        "y": 165.5
+                      },
+                      {
+                        "x": 380.5,
+                        "y": 156
+                      },
+                      {
+                        "x": 374,
+                        "y": 102
+                      },
+                      {
+                        "x": 399.5,
+                        "y": 87.5
+                      },
+                      {
+                        "x": 438,
+                        "y": 103
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 425.5,
+                        "y": 184
+                      },
+                      {
+                        "x": 442.5,
+                        "y": 206.5
+                      },
+                      {
+                        "x": 460.5,
+                        "y": 228.5
+                      },
+                      {
+                        "x": 454,
+                        "y": 348.5
+                      },
+                      {
+                        "x": 437,
+                        "y": 383
+                      },
+                      {
+                        "x": 451,
+                        "y": 444
+                      },
+                      {
+                        "x": 445.5,
+                        "y": 528.5
+                      },
+                      {
+                        "x": 462.5,
+                        "y": 579
+                      },
+                      {
+                        "x": 424.5,
+                        "y": 587.5
                       }
                     ]
                   ]
@@ -455,13 +2640,6 @@
           "gravityScale": 1,
           "layers": 1,
           "masks": 1
-        },
-        {
-          "canBeGrabbed": true,
-          "name": "Platform",
-          "platformType": "NormalPlatform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "yGrabOffset": 0
         }
       ],
       "animations": [
@@ -550,10 +2728,10 @@
           "masks": 1
         },
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -610,18 +2788,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 256,
-      "name": "Sky",
-      "tags": "",
-      "texture": "1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 256,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Foliage",
@@ -673,6 +2839,851 @@
                       {
                         "x": 0,
                         "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Trees",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        },
+        {
+          "name": "Light_Obstacle",
+          "type": "SpriteBasedLighting::Light_Obstacle"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dfa57489ad1dbb8ae7589165e7ee2bdd13997a866e9c329dc45b417dba23c17a_Tree 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53.5,
+                        "y": 172
+                      },
+                      {
+                        "x": 56.5,
+                        "y": 154
+                      },
+                      {
+                        "x": 56,
+                        "y": 137.5
+                      },
+                      {
+                        "x": 46.5,
+                        "y": 135.5
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 141
+                      },
+                      {
+                        "x": 8.5,
+                        "y": 138
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      },
+                      {
+                        "x": 5,
+                        "y": 121
+                      },
+                      {
+                        "x": 13.5,
+                        "y": 116
+                      },
+                      {
+                        "x": 30.5,
+                        "y": 114
+                      },
+                      {
+                        "x": 49,
+                        "y": 123
+                      },
+                      {
+                        "x": 55,
+                        "y": 129.5
+                      },
+                      {
+                        "x": 60,
+                        "y": 120.5
+                      },
+                      {
+                        "x": 50,
+                        "y": 122.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 54,
+                        "y": 108
+                      },
+                      {
+                        "x": 45,
+                        "y": 105.5
+                      },
+                      {
+                        "x": 28,
+                        "y": 112
+                      },
+                      {
+                        "x": 9,
+                        "y": 104.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 102
+                      },
+                      {
+                        "x": 10,
+                        "y": 96.5
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 84
+                      },
+                      {
+                        "x": 15.5,
+                        "y": 81
+                      },
+                      {
+                        "x": 21.5,
+                        "y": 72
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 58.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 47
+                      },
+                      {
+                        "x": 19.5,
+                        "y": 40
+                      },
+                      {
+                        "x": 24,
+                        "y": 32
+                      },
+                      {
+                        "x": 27.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 42,
+                        "y": 33.5
+                      },
+                      {
+                        "x": 57.5,
+                        "y": 41
+                      },
+                      {
+                        "x": 58.5,
+                        "y": 30.5
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 28.5
+                      },
+                      {
+                        "x": 46,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 55,
+                        "y": 7.5
+                      },
+                      {
+                        "x": 66,
+                        "y": 0
+                      },
+                      {
+                        "x": 70.5,
+                        "y": 12
+                      },
+                      {
+                        "x": 92.5,
+                        "y": 10
+                      },
+                      {
+                        "x": 105.5,
+                        "y": 13.5
+                      },
+                      {
+                        "x": 103.5,
+                        "y": 23.5
+                      },
+                      {
+                        "x": 92,
+                        "y": 31.5
+                      },
+                      {
+                        "x": 76,
+                        "y": 36
+                      },
+                      {
+                        "x": 71,
+                        "y": 40.5
+                      },
+                      {
+                        "x": 82,
+                        "y": 41.5
+                      },
+                      {
+                        "x": 95,
+                        "y": 42.5
+                      },
+                      {
+                        "x": 101,
+                        "y": 46
+                      },
+                      {
+                        "x": 101.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 117,
+                        "y": 59
+                      },
+                      {
+                        "x": 128,
+                        "y": 62.5
+                      },
+                      {
+                        "x": 142.5,
+                        "y": 72.5
+                      },
+                      {
+                        "x": 145,
+                        "y": 81.5
+                      },
+                      {
+                        "x": 138,
+                        "y": 93
+                      },
+                      {
+                        "x": 133,
+                        "y": 101.5
+                      },
+                      {
+                        "x": 126.5,
+                        "y": 110
+                      },
+                      {
+                        "x": 108.5,
+                        "y": 113.5
+                      },
+                      {
+                        "x": 96,
+                        "y": 114.5
+                      },
+                      {
+                        "x": 82,
+                        "y": 110.5
+                      },
+                      {
+                        "x": 77,
+                        "y": 112.5
+                      },
+                      {
+                        "x": 84,
+                        "y": 113.5
+                      },
+                      {
+                        "x": 98,
+                        "y": 116
+                      },
+                      {
+                        "x": 96,
+                        "y": 125
+                      },
+                      {
+                        "x": 80.5,
+                        "y": 142
+                      },
+                      {
+                        "x": 78,
+                        "y": 157
+                      },
+                      {
+                        "x": 80,
+                        "y": 186.5
+                      },
+                      {
+                        "x": 54,
+                        "y": 187
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Platform",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Platform",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Platform",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 0
+                      },
+                      {
+                        "x": 320,
+                        "y": 240
+                      },
+                      {
+                        "x": 0,
+                        "y": 240
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Cloud",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "cff78f141cb8aff13cc6632c1b6ee7ea9856a6ae8fa1b70f8d9ad9774dd000fb_cloud 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 432,
+                        "y": 0
+                      },
+                      {
+                        "x": 432,
+                        "y": 278
+                      },
+                      {
+                        "x": 0,
+                        "y": 278
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "GearsIcon",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "TweenZOrder",
+          "type": "TweenZOrder::TweenZOrder",
+          "Tween": "Tween"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bd1b1275fdc0ac2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1380,
+                        "y": 0
+                      },
+                      {
+                        "x": 1380,
+                        "y": 1196
+                      },
+                      {
+                        "x": 0,
+                        "y": 1196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GearsDisplay",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "geardisplay",
+      "font": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Scrap",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bd1b1275fdc0ac1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1380,
+                        "y": 0
+                      },
+                      {
+                        "x": 1380,
+                        "y": 1196
+                      },
+                      {
+                        "x": 0,
+                        "y": 1196
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ScrapAnimate",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "bd1b1275fdc0ac3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "bd1b1275fdc0ac3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 69,
+                        "y": 0
+                      },
+                      {
+                        "x": 69,
+                        "y": 60
+                      },
+                      {
+                        "x": 0,
+                        "y": 60
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Lighting",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 250,
+        "color": "255;0;0",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "HealthBarLighting",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "WhiteLighting",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "radius": 25,
+        "color": "233;232;229",
+        "debugMode": false,
+        "texture": ""
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Fence",
+      "tags": "",
+      "texture": "pngimg.com - fence_PNG104.png3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BirdOne",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "BoidsMovement",
+          "type": "BoidsMovement::BoidsMovement",
+          "MaxSpeed": 360,
+          "MaxAcceleration": 720,
+          "ShouldRotate": false,
+          "CohesionRadius": 64,
+          "AlignmentRadius": 48,
+          "SeparationRadius": 32,
+          "CohesionWeight": 1,
+          "AlignmentWeight": 1,
+          "SeparationWeight": 2,
+          "TrajectoryDistance": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "image__2_-removebg-preview (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 30,
+                        "y": 97
+                      },
+                      {
+                        "x": 489,
+                        "y": 97
+                      },
+                      {
+                        "x": 489,
+                        "y": 357
+                      },
+                      {
+                        "x": 30,
+                        "y": 357
                       }
                     ]
                   ]
@@ -800,12 +3811,32 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 241,
+      "ambientLightColorG": 245,
+      "ambientLightColorR": 237,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "BoidsMovement",
+      "type": "BoidsMovement::BoidsMovement"
     },
     {
       "name": "Effect",
@@ -818,6 +3849,14 @@
     {
       "name": "Health",
       "type": "Health::Health"
+    },
+    {
+      "name": "LightObstacleBehavior",
+      "type": "Lighting::LightObstacleBehavior"
+    },
+    {
+      "name": "Light_Obstacle",
+      "type": "SpriteBasedLighting::Light_Obstacle"
     },
     {
       "name": "Opacity",
@@ -836,6 +3875,10 @@
       "type": "PlatformBehavior::PlatformBehavior"
     },
     {
+      "name": "PlatformerCharacterAnimator",
+      "type": "PlatformerCharacterAnimator::PlatformerCharacterAnimator"
+    },
+    {
       "name": "PlatformerObject",
       "type": "PlatformBehavior::PlatformerObjectBehavior"
     },
@@ -850,6 +3893,10 @@
     {
       "name": "Tween",
       "type": "Tween::TweenBehavior"
+    },
+    {
+      "name": "TweenZOrder",
+      "type": "TweenZOrder::TweenZOrder"
     }
   ]
 }

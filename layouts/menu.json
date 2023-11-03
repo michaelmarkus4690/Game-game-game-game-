@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.33253870912507794,
+    "zoomFactor": 0.15002679255025575,
     "windowMask": false
   },
   "objectsGroups": [
@@ -42,8 +42,8 @@
       "name": "Start",
       "persistentUuid": "3d0b2485-533f-438b-bf55-4921804bbace",
       "width": 199,
-      "x": 514,
-      "y": 369,
+      "x": 876,
+      "y": 962,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -51,14 +51,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 169,
       "layer": "",
       "name": "Title",
       "persistentUuid": "b0d73e79-19d2-4be7-a50d-4e94284a2910",
-      "width": 0,
-      "x": 417,
-      "y": 62,
+      "width": 571,
+      "x": 704,
+      "y": 68,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -159,11 +160,30 @@
       "conditions": [
         {
           "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+            "value": "BuiltinCommonInstructions::Or"
           },
-          "parameters": [
-            "Start",
-            ""
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "Start",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"a\"",
+                ""
+              ]
+            }
           ]
         }
       ],
@@ -188,6 +208,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

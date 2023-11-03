@@ -44,30 +44,29 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Hero",
+            "Animation",
+            "=",
+            "\"Death\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
             "value": "ToggleGlobalVariableAsBoolean"
           },
           "parameters": [
             "HeroAlive"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::AddObjectWidthTween"
-          },
-          "parameters": [
-            "HealthBar",
-            "Tween",
-            "\"healthbar\"",
-            "Hero.Health::Health()/Hero.Health::MaxHealth()*500",
-            "\"easeInQuad\"",
-            "50",
-            "no"
           ]
         }
       ]
@@ -170,6 +169,20 @@
             ".1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectWidthTween"
+          },
+          "parameters": [
+            "HealthBar",
+            "Tween",
+            "\"healthbar\"",
+            "Hero.Health::Health()/Hero.Health::MaxHealth()*500",
+            "\"easeInQuad\"",
+            "50",
+            "no"
+          ]
         }
       ]
     },
@@ -204,11 +217,11 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "KeyPressed"
           },
           "parameters": [
-            "Hero",
-            "Damage",
+            "Trees",
+            "d",
             "",
             "",
             ""
@@ -230,8 +243,333 @@
             "Hero",
             "Health",
             "10",
+            "no",
+            "no",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Scrap",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "GearsDisplay",
+            "=",
+            "GlobalVariableString(Scrap)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "Scrap",
             "",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "ScrapAnimate",
+            "Scrap.X()",
+            "Scrap.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "ScrapAnimate",
+            "1000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Scrap",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionTween"
+          },
+          "parameters": [
+            "ScrapAnimate",
+            "Tween",
+            "\"scrap\"",
+            "Hero.PointX(\"Pocket\")",
+            "Hero.PointY(\"Pocket\")",
+            "\"easeInOutQuad\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::AddObjectPositionTween"
+          },
+          "parameters": [
+            "ScrapAnimate",
+            "Tween",
+            "\"scrap\"",
+            "GearsDisplay.X()",
+            "GearsDisplay.Y()",
+            "\"easeInOutQuad\"",
+            "500",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".6"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scrap",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "WhiteLighting",
+            "=",
+            "GearsIcon.PointX(\"Center\")",
+            "=",
+            "GearsIcon.PointY(\"Center\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "ScrapAnimate",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".05"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "WhiteLighting",
+            "=",
+            "9999",
+            "=",
+            "99999"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "ScrapAnimate",
+            "Resizable",
+            "Scrap.Width()",
+            "Scrap.Height()"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Movement",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Hero",
+            "Animation",
+            "=",
+            "\"Walk\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Hero",
+            "Animation",
+            "=",
+            "\"Idle\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::IsJumping"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Hero",
+            "Animation",
+            "=",
+            "\"Jump\""
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Birds",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::MoveInDirection"
+          },
+          "parameters": [
+            "BirdOne",
+            "BoidsMovement",
+            "1000",
+            "0",
+            "5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::SetSeparationWeight"
+          },
+          "parameters": [
+            "BirdOne",
+            "BoidsMovement",
+            "10",
             ""
           ]
         }

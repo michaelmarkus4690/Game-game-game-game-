@@ -23,8 +23,8 @@
     "name": "Jurrasic Park Game",
     "description": "",
     "author": "",
-    "windowWidth": 1280,
-    "windowHeight": 720,
+    "windowWidth": 1920,
+    "windowHeight": 1080,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -66,7 +66,7 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/5ae6ec4aed0b11ed1111bc311ce305844fa68f695d9547ad3accad79319b86f3-NewSprite.png",
+        "file": "assets/NewSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
@@ -75,7 +75,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/8f426b9c654b668bd82c29e5651119fd02b1fc742bcd851229b32a8d8fda3a67-NewSprite2.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite2",
@@ -84,7 +84,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Plant/6d67d614f2da90e3b613bd562f44bc10a2430951f7dd2c34fe082bcc35f2305a_Grass 1.png",
+        "file": "assets/Grass 1.png",
         "kind": "image",
         "metadata": "",
         "name": "6d67d614f2da90e3b613bd562f44bc10a2430951f7dd2c34fe082bcc35f2305a_Grass 1.png",
@@ -97,7 +97,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Foliage Pack (100 assets)/Plant/1e714815624e850e127dd4d2dbf5a272042fa1efd9926a31618e8a3a96405121_Tiny grass.png",
+        "file": "assets/Tiny grass.png",
         "kind": "image",
         "metadata": "",
         "name": "1e714815624e850e127dd4d2dbf5a272042fa1efd9926a31618e8a3a96405121_Tiny grass.png",
@@ -110,7 +110,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Background/f0fcdea023107dc7c4263d38d52d5f6f74a5b779887760a1580a613f7f4b2af0_tiled_Grass.png",
+        "file": "assets/tiled_Grass.png",
         "kind": "image",
         "metadata": "",
         "name": "f0fcdea023107dc7c4263d38d52d5f6f74a5b779887760a1580a613f7f4b2af0_tiled_Grass.png",
@@ -123,7 +123,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Plant/c1fc48dfdc40bfaf190264b48919dfdcd432269c29c4131092923a808132e380_Grass foreground.png",
+        "file": "assets/Grass foreground.png",
         "kind": "image",
         "metadata": "",
         "name": "c1fc48dfdc40bfaf190264b48919dfdcd432269c29c4131092923a808132e380_Grass foreground.png",
@@ -136,7 +136,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Plant/7dc65d1440e0c54ff91a138466802b3f97bf5c522c84906872960112dda9a433_Grass 2.png",
+        "file": "assets/Grass 2.png",
         "kind": "image",
         "metadata": "",
         "name": "7dc65d1440e0c54ff91a138466802b3f97bf5c522c84906872960112dda9a433_Grass 2.png",
@@ -149,7 +149,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/5ae6ec4aed0b11ed1111bc311ce305844fa68f695d9547ad3accad79319b86f3-NewSprite3.png",
+        "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
@@ -158,7 +158,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/b5b24496ffdbab46771691eaf6e240211d9a5f3b9b29765cff86e1e85ab98ea8-HealthBar.png",
+        "file": "assets/HealthBar.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "HealthBar",
@@ -166,7 +166,7 @@
         "userAdded": true
       },
       {
-        "file": "https://asset-resources.gdevelop.io/public-resources/SoundEffects/Footsteps/Grass/Jump/5793354836e26d784914747b1ebd6a5ba80bf82349e8f51f8ceab636210598bd_Jump_Land_01.wav",
+        "file": "assets/Jump_Land_01.wav",
         "kind": "audio",
         "metadata": "",
         "name": "5793354836e26d784914747b1ebd6a5ba80bf82349e8f51f8ceab636210598bd_Jump_Land_01.wav",
@@ -180,7 +180,7 @@
         }
       },
       {
-        "file": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Hit/e41e3576a8dab4fca0f7a330c8c485402564e1434f0b56cc881fdc15fc3ac0d7_Hit 2.aac",
+        "file": "assets/Hit 2.aac",
         "kind": "audio",
         "metadata": "",
         "name": "e41e3576a8dab4fca0f7a330c8c485402564e1434f0b56cc881fdc15fc3ac0d7_Hit 2.aac",
@@ -195,7 +195,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/d9f3781551bb264983dc9b647009622ac0b00c158cf0880d6c616dc89e896692-NewSprite4.png",
+        "file": "assets/NewSprite4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite4",
@@ -204,7 +204,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/a0d2d97a09a572adaa4892a85dbdf8465ef7ed8684572ea91d2ab77d6bb9632c-HealthBar2.png",
+        "file": "assets/HealthBar2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "HealthBar2",
@@ -213,7 +213,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/fabfed9dc4abb456a5a84316d86e49bfae446c4e86301480318f7acf8e4edabd-HealthBar3.png",
+        "file": "assets/HealthBar3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "HealthBar3",
@@ -222,7 +222,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/2be238b88217ba9e13d90cd94895f7411fcb959f0cec9fcb75b28f9fb4896837-NewSprite5.png",
+        "file": "assets/NewSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite5",
@@ -231,7 +231,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/e8d4d9b800cd1c6e114b889d2525fde3a3dfc9bf880605b121d4d7b40cbe39f7-NewSprite6.png",
+        "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite6",
@@ -240,7 +240,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/fabfed9dc4abb456a5a84316d86e49bfae446c4e86301480318f7acf8e4edabd-HealthBar4.png",
+        "file": "assets/HealthBar4.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "HealthBar4",
@@ -249,7 +249,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+        "file": "assets/Yellow Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Hovered.png",
@@ -262,7 +262,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+        "file": "assets/Yellow Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Idle.png",
@@ -275,7 +275,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+        "file": "assets/Yellow Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "Yellow Button_Pressed.png",
@@ -288,7 +288,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/4e7419b337152dd137c13a64b3e4d3fa25a656841ad82caea5e507050d2ec0ad-NewSprite7.png",
+        "file": "assets/NewSprite7.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite7",
@@ -297,7 +297,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/8a92d9d886612939e209231a52a58ca510e7af53ccf0ac80b70f84c99adc6180-NewSprite8.png",
+        "file": "assets/NewSprite8.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
@@ -306,7 +306,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/9a188cde6e7cb1232457cda3f9c15a769c79d8f225f463eddb9f80c7a69cd683-NewSprite9.png",
+        "file": "assets/NewSprite9.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite9",
@@ -315,7 +315,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/c1bb766b9fc3b3ec5fe7b0c1d757010ca13cc72ef0a4c94fa0211dd949e1d2f6_Cursor-1.png",
+        "file": "assets/Cursor-1.png",
         "kind": "image",
         "metadata": "",
         "name": "c1bb766b9fc3b3ec5fe7b0c1d757010ca13cc72ef0a4c94fa0211dd949e1d2f6_Cursor-1.png",
@@ -328,7 +328,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/2143a5d4b6c83a8ff54de9e987292b0e9c63b02694266b47338d7174e14ace44-NewSprite10.png",
+        "file": "assets/NewSprite10.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite10",
@@ -337,7 +337,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/2d08725d55a8db993d6533a0f65aab0bc079fe82eae5d8f5fbd56003135374bb-1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png.png",
+        "file": "assets/1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "1532fe7a8e6c84b7b2547f1b3e9c3430546bd0adc86262971d99897b8ebef730_tiled_Sky Background.png",
@@ -350,7 +350,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/85be5683bde687f5ee621cb6af57e360aeb18d6f74b2a14db8eeb4cffe93251e_tiled_Grass1.png",
+        "file": "assets/tiled_Grass1.png",
         "kind": "image",
         "metadata": "",
         "name": "85be5683bde687f5ee621cb6af57e360aeb18d6f74b2a14db8eeb4cffe93251e_tiled_Grass1.png",
@@ -363,7 +363,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/GDevelop examples/Platformer/Player/b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_2.png",
+        "file": "assets/Red hero_Idle_2.png",
         "kind": "image",
         "metadata": "",
         "name": "b5b9ce79a5fd4f320fcde2fc0a16a3d46cceec7f92cae9e6b30a3fe84b676366_Red hero_Idle_2.png",
@@ -376,7 +376,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/23bf29e1210d5a7ced8d1bc1b0d487f437496ef525a0fcd55a74e6860aebb0ec_Red Box_Shadow.png",
+        "file": "assets/Red Box_Shadow.png",
         "kind": "image",
         "metadata": "",
         "name": "23bf29e1210d5a7ced8d1bc1b0d487f437496ef525a0fcd55a74e6860aebb0ec_Red Box_Shadow.png",
@@ -389,7 +389,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://project-resources.gdevelop.io/7c412605-e888-4584-a94b-7ec09b7083c9/resources/da03e2bf5580e57d4be4a0b5b86122f2c1b880aa0d804dfff948c0d41ced5c00-NewSprite11.png",
+        "file": "assets/NewSprite11.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite11",
@@ -398,7 +398,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/16e804dda11f82902d6b7469420d7b3b81d68ef00af71783070dd284114e8cdc_On Screen Controls Button_Hovered.png",
+        "file": "assets/On Screen Controls Button_Hovered.png",
         "kind": "image",
         "metadata": "",
         "name": "On Screen Controls Button_Hovered.png",
@@ -411,7 +411,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/174644b98156cc55e10a4eb991aebb06e0a2c9f98915abb1422cababc3124de3_On Screen Controls Button_Idle.png",
+        "file": "assets/On Screen Controls Button_Idle.png",
         "kind": "image",
         "metadata": "",
         "name": "On Screen Controls Button_Idle.png",
@@ -424,7 +424,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a44f1cb97ef7da59c97179346b71d3f5b913af0208795784707c062fc20749f_On Screen Controls Button_Pressed.png",
+        "file": "assets/On Screen Controls Button_Pressed.png",
         "kind": "image",
         "metadata": "",
         "name": "On Screen Controls Button_Pressed.png",
@@ -436,7 +436,7 @@
         }
       },
       {
-        "file": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+        "file": "assets/Roboto-Regular.ttf",
         "kind": "font",
         "metadata": "",
         "name": "Roboto-Regular.ttf",
@@ -448,7 +448,7 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/320c4ed3de6b08950b8c73abd9cd8bbc420f4ef909c672d2526ad8d6ad02b3f2_Lock-Closed.png",
+        "file": "assets/Lock-Closed.png",
         "kind": "image",
         "metadata": "",
         "name": "320c4ed3de6b08950b8c73abd9cd8bbc420f4ef909c672d2526ad8d6ad02b3f2_Lock-Closed.png",
@@ -458,6 +458,316 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/320c4ed3de6b08950b8c73abd9cd8bbc420f4ef909c672d2526ad8d6ad02b3f2_Lock-Closed.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Tree 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dfa57489ad1dbb8ae7589165e7ee2bdd13997a866e9c329dc45b417dba23c17a_Tree 2.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Background Element/Plant/dfa57489ad1dbb8ae7589165e7ee2bdd13997a866e9c329dc45b417dba23c17a_Tree 2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "126805_1 (1).jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "126805_1 (1).jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "126805_1 (1)2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "126805_1 (1)2.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "skin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "skin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"alex.png\",\"extension\":\".png\"}",
+        "name": "alex.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Platform.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Platform",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cloud 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cff78f141cb8aff13cc6632c1b6ee7ea9856a6ae8fa1b70f8d9ad9774dd000fb_cloud 3.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Generic Backgrounds/Background Objects/Retina/cff78f141cb8aff13cc6632c1b6ee7ea9856a6ae8fa1b70f8d9ad9774dd000fb_cloud 3.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gear.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "83b54372fcb1f871e978cd05ad7fc74bd1e53df70e44dfbc3a804ba2bfdfeff8_Gear.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Flat/83b54372fcb1f871e978cd05ad7fc74bd1e53df70e44dfbc3a804ba2bfdfeff8_Gear.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Gear2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1d0de0b9844244c7289df5ec5f03de00e104abda44eb55a6a32ed465600cebc5_Gear.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/1d0de0b9844244c7289df5ec5f03de00e104abda44eb55a6a32ed465600cebc5_Gear.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bd1b1275fdc0ac1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bd1b1275fdc0ac1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bd1b1275fdc0ac2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bd1b1275fdc0ac2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Kenney Pixel Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Font Pack/1bee9bddf3765d016ea29c21d418cdb0e958d1cd9c0aaa8743f9e174cb486e71_Kenney Pixel Square.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "bd1b1275fdc0ac3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bd1b1275fdc0ac3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bd1b1275fdc0ac3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "bd1b1275fdc0ac3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Walk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Walk",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex walking0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex walking0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pngimg.com - fence_PNG104.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngimg.com - fence_PNG104.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pngimg.com - fence_PNG104.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "pngimg.com - fence_PNG104.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pngimg.com - fence_PNG104.png3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "pngimg.com - fence_PNG104.png3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex jump.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"alex jump.png\",\"extension\":\".png\"}",
+        "name": "alex jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Parallax Background Sky.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "303843591493620bd620aabe58e3cc6de8219999db9c23edb60dbbbac25d1e8b_tiled_Parallax Background Sky.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Backgrounds/303843591493620bd620aabe58e3cc6de8219999db9c23edb60dbbbac25d1e8b_tiled_Parallax Background Sky.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "alex dead.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "alex dead.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image (2).png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "image__2_-removebg-preview (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "image__2_-removebg-preview (1).png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -488,6 +798,12 @@
       "name": "LevelThreeLocked",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "Scrap",
+      "type": "string",
+      "value": "0"
     }
   ],
   "layouts": [
@@ -511,6 +827,26 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/boidsmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/tweenzorder"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/platformercharacteranimator"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/spritebasedlighting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/buttonstates"
