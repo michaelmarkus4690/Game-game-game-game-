@@ -44,6 +44,15 @@
       "actions": [
         {
           "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "False"
+          ]
+        },
+        {
+          "type": {
             "value": "AnimatableCapability::AnimatableBehavior::SetName"
           },
           "parameters": [
@@ -58,7 +67,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "5"
+            "3"
           ]
         },
         {
@@ -67,6 +76,44 @@
           },
           "parameters": [
             "HeroAlive"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Trees",
+            "d",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Hero",
+            "Health",
+            "10",
+            "no",
+            "no",
+            ""
           ]
         }
       ]
@@ -207,44 +254,6 @@
           "parameters": [
             "",
             "\"Menu\"",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "Trees",
-            "d",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Health::Health::Hit"
-          },
-          "parameters": [
-            "Hero",
-            "Health",
-            "10",
-            "no",
-            "no",
             ""
           ]
         }
@@ -564,12 +573,23 @@
         },
         {
           "type": {
-            "value": "BoidsMovement::BoidsMovement::SetSeparationWeight"
+            "value": "BoidsMovement::BoidsMovement::SetCohesionWeight"
           },
           "parameters": [
             "BirdOne",
             "BoidsMovement",
-            "10",
+            "-.05",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardAngle"
+          },
+          "parameters": [
+            "BirdOne",
+            "25",
+            "100",
             ""
           ]
         }
