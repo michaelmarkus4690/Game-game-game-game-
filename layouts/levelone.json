@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3325387091250914,
+    "zoomFactor": 0.2725359896773091,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -40,8 +40,8 @@
       "name": "HealthBar",
       "persistentUuid": "ec888145-29e4-4ed4-b659-f9dd92ea89a3",
       "width": 500,
-      "x": 18,
-      "y": 65,
+      "x": 16,
+      "y": 16,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -56,8 +56,8 @@
       "name": "HealthBackground",
       "persistentUuid": "b833e2d6-c890-45dd-b1a2-65c9aa19af1d",
       "width": 501,
-      "x": 19,
-      "y": 63,
+      "x": 18,
+      "y": 16,
       "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
@@ -72,9 +72,9 @@
       "name": "Hero",
       "persistentUuid": "299ca040-f470-44ff-937e-3523826fd616",
       "width": 599,
-      "x": 49,
-      "y": 622,
-      "zOrder": 7,
+      "x": 47,
+      "y": 565,
+      "zOrder": 10000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -87,9 +87,9 @@
       "layer": "",
       "name": "Platform",
       "persistentUuid": "4d381a3a-41c1-4d70-a756-b92a22868673",
-      "width": 2376,
-      "x": -1,
-      "y": 1052,
+      "width": 4320,
+      "x": -122,
+      "y": 956,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -104,15 +104,15 @@
       "name": "Background",
       "persistentUuid": "d21374b6-44d2-4919-94a8-64586a1b942a",
       "width": 4414,
-      "x": -1,
-      "y": -24,
-      "zOrder": -100,
+      "x": -9,
+      "y": -13,
+      "zOrder": -10000,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 175,
       "customSize": true,
       "depth": 1,
       "height": 134,
@@ -120,25 +120,9 @@
       "name": "GearsIcon",
       "persistentUuid": "1c7a8ef7-acc3-4981-a9cc-5be73670682e",
       "width": 163,
-      "x": 1750,
-      "y": 10,
+      "x": 1758,
+      "y": 3,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 74,
-      "layer": "",
-      "name": "Scrap",
-      "persistentUuid": "80a06294-2f7c-4943-977c-a986c0d2f71e",
-      "width": 69,
-      "x": 769,
-      "y": 956,
-      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -152,72 +136,72 @@
       "name": "GearsDisplay",
       "persistentUuid": "4739cdfd-8368-4727-8750-0991190c4580",
       "width": 100,
-      "x": 1651,
-      "y": 25,
+      "x": 1710,
+      "y": 13,
       "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 275,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "7acb683d-aea2-4cec-b4d6-c20f297e6ea5",
-      "width": 69,
-      "x": 858,
-      "y": 959,
+      "width": 46,
+      "x": 824,
+      "y": 914,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 154,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "6e5a4a66-b0f7-47d2-87b8-66535cd0f739",
-      "width": 69,
-      "x": 940,
-      "y": 961,
+      "width": 46,
+      "x": 880,
+      "y": 914,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 261,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "341d92db-7445-4130-b97d-7f96dcba41f1",
-      "width": 69,
-      "x": 1017,
-      "y": 959,
+      "width": 46,
+      "x": 933,
+      "y": 921,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 117,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "64a750a7-b596-4084-8057-e22f4c49ab3a",
-      "width": 69,
-      "x": 1187,
-      "y": 959,
+      "width": 46,
+      "x": 1048,
+      "y": 926,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -227,13 +211,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "7416048b-59da-44c1-894a-928b22f76660",
-      "width": 69,
-      "x": 1107,
-      "y": 956,
+      "width": 46,
+      "x": 994,
+      "y": 917,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -243,45 +227,45 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "67e11181-07db-42cd-8904-31dab7b40b13",
-      "width": 69,
-      "x": 1261,
-      "y": 957,
+      "width": 46,
+      "x": 1099,
+      "y": 932,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 123,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "3d025c2e-9e9a-4b91-bb86-34f89a173062",
-      "width": 69,
-      "x": 1427,
-      "y": 959,
+      "width": 46,
+      "x": 1225,
+      "y": 923,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 257,
       "customSize": true,
       "depth": 1,
-      "height": 74,
+      "height": 49,
       "layer": "",
       "name": "Scrap",
       "persistentUuid": "398cd895-fcfa-4975-acb8-3379cd455bf0",
-      "width": 69,
-      "x": 1352,
-      "y": 959,
+      "width": 46,
+      "x": 1162,
+      "y": 931,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -295,25 +279,10 @@
       "layer": "",
       "name": "GrassTexture",
       "persistentUuid": "603cce82-90c0-4574-a576-a1de1bed4840",
-      "width": 4436,
-      "x": -3,
-      "y": 992,
-      "zOrder": -100,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "MountainsTwo",
-      "persistentUuid": "0851f2ac-6d85-4343-aa1e-9ef226433c08",
-      "width": 0,
-      "x": 730,
-      "y": 288,
-      "zOrder": -101,
+      "width": 6395,
+      "x": -1972,
+      "y": 909,
+      "zOrder": -200,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -329,7 +298,7 @@
       "width": 167,
       "x": 78,
       "y": 208,
-      "zOrder": 15,
+      "zOrder": 1874919424,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -345,7 +314,7 @@
       "width": 167,
       "x": 125,
       "y": 302,
-      "zOrder": 15,
+      "zOrder": 1215752191,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -361,7 +330,7 @@
       "width": 167,
       "x": 163,
       "y": 139,
-      "zOrder": 15,
+      "zOrder": -727379969,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -377,7 +346,471 @@
       "width": 167,
       "x": 206,
       "y": 229,
-      "zOrder": 15,
+      "zOrder": 1316134911,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 159,
+      "layer": "",
+      "name": "Grass2",
+      "persistentUuid": "8165472f-fb8c-44f7-8218-b2e47ac682b9",
+      "width": 6433,
+      "x": -2012,
+      "y": 997,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "layer": "",
+      "name": "Scrap",
+      "persistentUuid": "aba7f386-5d95-4dc3-9438-6c6caa952c0b",
+      "width": 46,
+      "x": 765,
+      "y": 914,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 248,
+      "layer": "",
+      "name": "grasss",
+      "persistentUuid": "3a5829eb-f4c8-4a52-8ad4-fdef9df93b5a",
+      "width": 6396,
+      "x": -1975,
+      "y": 663,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 731,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "339e848a-6703-4f24-b2fa-744c03f1a59f",
+      "width": 418,
+      "x": 284,
+      "y": 163,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "4f7ace51-ba92-4215-8b07-2c44645f05b4",
+      "width": 418,
+      "x": 720,
+      "y": 140,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "0c0633ca-e498-4ea5-afca-1b9061e860ed",
+      "width": 418,
+      "x": 1182,
+      "y": 236,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "c91b8d52-5014-4bbf-a74f-cfa2150cde0c",
+      "width": 418,
+      "x": 1725,
+      "y": 173,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Foliage",
+      "persistentUuid": "c6a2f970-9317-4748-92fd-c0e4250c72a1",
+      "width": 138,
+      "x": 456,
+      "y": 840,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Foliage",
+      "persistentUuid": "145e082d-02b4-4dea-b959-9d2089e2a5ad",
+      "width": 138,
+      "x": 899,
+      "y": 757,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Foliage",
+      "persistentUuid": "38b7b275-8ad9-4b91-aa2f-ef1e0b2b934f",
+      "width": 138,
+      "x": 1358,
+      "y": 862,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Foliage",
+      "persistentUuid": "01cc5ffe-65f7-4c15-aabc-b9c9344ede85",
+      "width": 138,
+      "x": 1903,
+      "y": 804,
+      "zOrder": -50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 340,
+      "layer": "",
+      "name": "Fence",
+      "persistentUuid": "e68f705b-2cf1-4637-86de-98470e314905",
+      "width": 6374,
+      "x": -1958,
+      "y": 333,
+      "zOrder": -90,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1420,
+      "layer": "",
+      "name": "grasss",
+      "persistentUuid": "f48c4233-2993-4c56-ba0e-adecef22a9e7",
+      "width": 6408,
+      "x": -1982,
+      "y": -750,
+      "zOrder": -9999,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "0973c71f-8668-41fb-9b71-c2d4b847be99",
+      "width": 418,
+      "x": 983,
+      "y": -363,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "b61426e9-e8c5-42c3-b5ef-5fdfca1f300c",
+      "width": 418,
+      "x": 399,
+      "y": -548,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "5c39edef-afe6-4f77-b9a8-785a96e34cd9",
+      "width": 418,
+      "x": 1802,
+      "y": -563,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 206,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "e2a198ba-eb3f-4d3d-9cd2-bfa35ab34dc3",
+      "width": 258,
+      "x": 626,
+      "y": 625,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 206,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "02575b45-47aa-4d2e-9687-4657b9add7d6",
+      "width": 258,
+      "x": 170,
+      "y": 678,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 206,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "264b20e2-a818-4b0a-944d-e167a348f8d1",
+      "width": 258,
+      "x": 1069,
+      "y": 689,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 206,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "8976df6b-3107-490a-ac39-c71744dc216f",
+      "width": 258,
+      "x": 1519,
+      "y": 665,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 206,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "5c04b724-6be4-484f-9d18-6a8b3e3fcb19",
+      "width": 258,
+      "x": 2083,
+      "y": 681,
+      "zOrder": -49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1110,
+      "layer": "",
+      "name": "Platform",
+      "persistentUuid": "2844b222-7025-44cd-a8e8-df84d2d9ab64",
+      "width": 442,
+      "x": -425,
+      "y": -52,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "2c35d97b-13eb-49d4-804b-db3d5e9e1ff8",
+      "width": 418,
+      "x": -560,
+      "y": 242,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 675,
+      "layer": "",
+      "name": "PalmTree",
+      "persistentUuid": "7310be09-0e6a-4758-b15b-f45410681d23",
+      "width": 418,
+      "x": -935,
+      "y": -396,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 339,
+      "layer": "",
+      "name": "Rock",
+      "persistentUuid": "5f34b5bc-6132-438f-8558-5d73ff1ee4d5",
+      "width": 425,
+      "x": -475,
+      "y": -64,
+      "zOrder": 1874919425,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 339,
+      "layer": "",
+      "name": "Rock",
+      "persistentUuid": "29e02e15-1a86-433d-9a8e-b93f9c9c06d2",
+      "width": 425,
+      "x": 1303,
+      "y": -62,
+      "zOrder": 1874919425,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 339,
+      "layer": "",
+      "name": "Rock",
+      "persistentUuid": "73067afe-068f-4541-9391-e2bae4478ef3",
+      "width": 425,
+      "x": 734,
+      "y": 288,
+      "zOrder": -100,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 127,
+      "layer": "",
+      "name": "BirdOne",
+      "persistentUuid": "d2067f96-e93e-49e2-8629-990bbb9f0168",
+      "width": 167,
+      "x": 193,
+      "y": 167,
+      "zOrder": 1215752191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 127,
+      "layer": "",
+      "name": "BirdOne",
+      "persistentUuid": "531a5d1f-74ec-43f4-93e2-f811cfed10ed",
+      "width": 167,
+      "x": 235,
+      "y": 313,
+      "zOrder": 1215752191,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -455,6 +888,77 @@
           "useLegacyTrajectory": false,
           "xGrabTolerance": 10,
           "yGrabOffset": 0
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 100,
+          "CameraOffsetY": -200,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 0,
+          "LogRightwardSpeed": 0,
+          "LogDownwardSpeed": 0,
+          "LogUpwardSpeed": 0,
+          "DelayedCenterX": 0,
+          "DelayedCenterY": 0,
+          "ForecastHistoryMeanX": 0,
+          "ForecastHistoryMeanY": 0,
+          "ForecastHistoryVarianceX": 0,
+          "ForecastHistoryCovariance": 0,
+          "ForecastHistoryLinearA": 0,
+          "ForecastHistoryLinearB": 0,
+          "ForecastedX": 0,
+          "ForecastedY": 0,
+          "ProjectedNewestX": 0,
+          "ProjectedNewestY": 0,
+          "ProjectedOldestX": 0,
+          "ProjectedOldestY": 0,
+          "ForecastHistoryVarianceY": 0,
+          "Index": 0,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 0,
+          "WaitingSpeedXMax": 0,
+          "WaitingSpeedYMax": 0,
+          "WaitingEnd": 0,
+          "CameraDelayCatchUpDuration": 0,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000,
+          "OldY": 9000,
+          "IsCalledManually": false
+        },
+        {
+          "name": "SmoothPlatformerCamera",
+          "type": "SmoothCamera::SmoothPlatformerCamera",
+          "PlatformerCharacter": "PlatformerObject",
+          "SmoothCamera": "SmoothCamera",
+          "JumpOriginY": 0,
+          "AirFollowFreeAreaTop": 0,
+          "AirFollowFreeAreaBottom": 0,
+          "FloorFollowFreeAreaTop": 0,
+          "FloorFollowFreeAreaBottom": 0,
+          "AirUpwardSpeed": 0.95,
+          "AirDownwardSpeed": 0.95,
+          "FloorUpwardSpeed": 0.9,
+          "FloorDownwardSpeed": 0.9,
+          "AirUpwardSpeedMax": 9000,
+          "AirDownwardSpeedMax": 9000,
+          "FloorUpwardSpeedMax": 9000,
+          "FloorDownwardSpeedMax": 9000
         }
       ],
       "animations": [
@@ -1059,6 +1563,73 @@
                     "name": "origine",
                     "x": 304.5,
                     "y": 81
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 387.5,
+                    "y": 317
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 316,
+                        "y": 191.5
+                      },
+                      {
+                        "x": 362.5,
+                        "y": 158
+                      },
+                      {
+                        "x": 382.5,
+                        "y": 66.5
+                      },
+                      {
+                        "x": 453,
+                        "y": 88.5
+                      },
+                      {
+                        "x": 443.5,
+                        "y": 382
+                      },
+                      {
+                        "x": 467.5,
+                        "y": 604
+                      },
+                      {
+                        "x": 292,
+                        "y": 605.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hanging",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hanging",
+                  "points": [
+                    {
+                      "name": "Pocket",
+                      "x": 374,
+                      "y": 220
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 374,
+                    "y": 214.5
                   },
                   "centerPoint": {
                     "automatic": false,
@@ -2047,16 +2618,17 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "bd1b1275fdc0ac2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bd1b1275fdc0ac2.png",
+                  "image": "bd1b1275fdc0ac4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2072,20 +2644,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 255,
+                        "y": 126
                       },
                       {
-                        "x": 1380,
-                        "y": 0
+                        "x": 681,
+                        "y": 126
                       },
                       {
-                        "x": 1380,
-                        "y": 1196
+                        "x": 681,
+                        "y": 1081
                       },
                       {
-                        "x": 0,
-                        "y": 1196
+                        "x": 255,
+                        "y": 1081
                       }
                     ]
                   ]
@@ -2145,7 +2717,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bd1b1275fdc0ac1.png",
+                  "image": "NewSprite26",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2161,20 +2733,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 83,
+                        "y": 41
                       },
                       {
-                        "x": 1380,
-                        "y": 0
+                        "x": 223,
+                        "y": 41
                       },
                       {
-                        "x": 1380,
-                        "y": 1196
+                        "x": 223,
+                        "y": 354
                       },
                       {
-                        "x": 0,
-                        "y": 1196
+                        "x": 83,
+                        "y": 354
                       }
                     ]
                   ]
@@ -2212,7 +2784,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "bd1b1275fdc0ac3",
+                  "image": "bd1b1275fdc0ac6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2228,20 +2800,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 8,
+                        "y": 4
                       },
                       {
-                        "x": 69,
-                        "y": 0
+                        "x": 22,
+                        "y": 4
                       },
                       {
-                        "x": 69,
-                        "y": 60
+                        "x": 22,
+                        "y": 35
                       },
                       {
-                        "x": 0,
-                        "y": 60
+                        "x": 8,
+                        "y": 35
                       }
                     ]
                   ]
@@ -2421,139 +2993,15 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
+      "height": 89,
       "name": "GrassTexture",
       "tags": "",
-      "texture": "2064ebc84f5a17dc1e336dbd6d7de707.jpg2",
+      "texture": "2064ebc84f5a17dc1e336dbd6d7de707.jpg4",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
       "effects": [],
       "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Mountain",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite19",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 90
-                      },
-                      {
-                        "x": 400,
-                        "y": 90
-                      },
-                      {
-                        "x": 400,
-                        "y": 400
-                      },
-                      {
-                        "x": 0,
-                        "y": 400
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "MountainsTwo",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite16",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 27
-                      },
-                      {
-                        "x": 500,
-                        "y": 27
-                      },
-                      {
-                        "x": 500,
-                        "y": 500
-                      },
-                      {
-                        "x": 0,
-                        "y": 500
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -2606,6 +3054,491 @@
                       {
                         "x": 32,
                         "y": 365
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CLIFF",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite20",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 600,
+                        "y": 0
+                      },
+                      {
+                        "x": 600,
+                        "y": 600
+                      },
+                      {
+                        "x": 0,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Grass2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Grass2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Grass2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mountain_Range",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite22",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 123
+                      },
+                      {
+                        "x": 528,
+                        "y": 123
+                      },
+                      {
+                        "x": 528,
+                        "y": 528
+                      },
+                      {
+                        "x": 0,
+                        "y": 528
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "grasss",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite23",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "PalmTree",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "7aedb2f01f10626d3e50311155624125089de15d25c6beeb8892dd95f664343d_Palm tree.png",
+                  "points": [
+                    {
+                      "name": "TreeHang",
+                      "x": 77.5,
+                      "y": 114
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 63.5,
+                        "y": 67
+                      },
+                      {
+                        "x": 256.5,
+                        "y": 54
+                      },
+                      {
+                        "x": 288.5,
+                        "y": 23
+                      },
+                      {
+                        "x": 400,
+                        "y": 0
+                      },
+                      {
+                        "x": 391.5,
+                        "y": 43
+                      },
+                      {
+                        "x": 344.5,
+                        "y": 151
+                      },
+                      {
+                        "x": 276.5,
+                        "y": 150
+                      },
+                      {
+                        "x": 223.5,
+                        "y": 141
+                      },
+                      {
+                        "x": 163.5,
+                        "y": 136
+                      },
+                      {
+                        "x": 56.5,
+                        "y": 204
+                      },
+                      {
+                        "x": 0,
+                        "y": 154
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sway",
+          "type": "Sway::Sway",
+          "AngleLeft": -5,
+          "AngleRight": 5,
+          "AngleTimeMin": 1,
+          "AngleTimeMax": 3,
+          "YScaleMin": 1,
+          "YScaleMax": 1.2,
+          "YScaleTimeMin": 1,
+          "YScaleTimeMax": 3,
+          "TweenBehavior": "Tween"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush 4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 0
+                      },
+                      {
+                        "x": 99,
+                        "y": 0
+                      },
+                      {
+                        "x": 99,
+                        "y": 92
+                      },
+                      {
+                        "x": 1,
+                        "y": 92
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Rock",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite27",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 56,
+                        "y": 56
+                      },
+                      {
+                        "x": 220,
+                        "y": 56
+                      },
+                      {
+                        "x": 220,
+                        "y": 216
+                      },
+                      {
+                        "x": 56,
+                        "y": 216
                       }
                     ]
                   ]
@@ -2795,6 +3728,18 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "SmoothPlatformerCamera",
+      "type": "SmoothCamera::SmoothPlatformerCamera"
+    },
+    {
+      "name": "Sway",
+      "type": "Sway::Sway"
     },
     {
       "name": "Tween",
