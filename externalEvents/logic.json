@@ -6,7 +6,16 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NPC_Proximity"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -53,13 +62,23 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "Delete"
           },
           "parameters": [
             "Hero",
-            "Animation",
-            "=",
-            "\"Death\""
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "HeroDead",
+            "Hero.X()",
+            "Hero.Y()",
+            ""
           ]
         },
         {
@@ -67,7 +86,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "3"
+            "8"
           ]
         },
         {
@@ -76,6 +95,16 @@
           },
           "parameters": [
             "HeroAlive"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "Scrap",
+            "=",
+            "0"
           ]
         }
       ]
@@ -318,6 +347,18 @@
             "ScrapAnimate",
             "Scrap.X()",
             "Scrap.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "2d13990f8c40250a463018d3cacda8d099885ff8cbcf31b9a4644079008a19e6_Blip 4.aac",
+            "",
+            "",
             ""
           ]
         },
@@ -583,7 +624,21 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BirdOne",
+            "GoBack",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -623,6 +678,101 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::MoveInDirection"
+          },
+          "parameters": [
+            "BirdTwo",
+            "BoidsMovement",
+            "1000",
+            "0",
+            "5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::SetCohesionWeight"
+          },
+          "parameters": [
+            "BirdOne",
+            "BoidsMovement",
+            "-.05",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardAngle"
+          },
+          "parameters": [
+            "BirdTwo",
+            "25",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BirdOne",
+            "GoBack",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::MoveInDirection"
+          },
+          "parameters": [
+            "BirdOne",
+            "BoidsMovement",
+            "-2000",
+            "0",
+            "5",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardAngle"
+          },
+          "parameters": [
+            "BirdOne",
+            "25",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BoidsMovement::BoidsMovement::SetCohesionWeight"
+          },
+          "parameters": [
+            "BirdOne",
+            "BoidsMovement",
+            "-.05",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -656,6 +806,18 @@
             "",
             "c"
           ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "canhang",
+            "Hero",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
@@ -666,6 +828,17 @@
           "parameters": [
             "DefaultMovement",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "PalmTree",
+            "Animation",
+            "=",
+            "\"CoconutFall\""
           ]
         },
         {
@@ -716,9 +889,33 @@
             "",
             "c"
           ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "canhang",
+            "Hero",
+            "",
+            "",
+            ""
+          ]
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "ac0f0e86bc55c2b7e4a8333fb86ef29f797560204d4bb32ab26d2ec2c4f79157_Jump_Light_01.wav",
+            "",
+            "",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "SetSceneVariableAsBoolean"
@@ -729,6 +926,377 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Rain",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Gentle-rain-loop.mp3",
+            "yes",
+            "20",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "865f521f5fda0c802b5ead206beffdccb6ad754edb6785ef1441b4acf01cb163_Aquarium.aac",
+            "1",
+            "",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Rain",
+            "=",
+            "Hero.X()",
+            "=",
+            "Hero.Y() - 300"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Thunder",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "LightningFlashed",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "Choose::RandomNumber(\"8,7,9,10,15,20,25,30\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "LightningFlashed",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Thunder   Sound effect2.mp3",
+            "10",
+            "",
+            "30",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Lightning_Flash_",
+            "=",
+            "Hero.X()",
+            "=",
+            "Hero.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".1"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Lightning_Flash_",
+            "=",
+            "100000",
+            "=",
+            "10000"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "LightningFlashed",
+            "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Musuem Teleport",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "Museum",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Hero",
+            "=",
+            "3700",
+            "=",
+            "-2200"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "NPC Talk",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "NPC_Proximity",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "=",
+            "TestNPC.PointX(\"Bubble\")",
+            "=",
+            "TestNPC.PointY(\"Bubble\")"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "NPC_Proximity",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Black",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "Animation",
+            "=",
+            "\"Pressed\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Black",
+            "=",
+            "Hero.X()",
+            "=",
+            "Hero.Y()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "NPC_Proximity",
+            "",
+            "",
+            "no"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "=",
+            "9999",
+            "=",
+            "9999"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }
