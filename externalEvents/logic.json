@@ -14,8 +14,29 @@
           "parameters": [
             "NPC_Proximity"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "TextBox"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WU_NPCTEXT"
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -415,7 +436,7 @@
             "GearsDisplay.X()",
             "GearsDisplay.Y()",
             "\"easeInOutQuad\"",
-            "500",
+            "250",
             ""
           ]
         },
@@ -424,7 +445,7 @@
             "value": "Wait"
           },
           "parameters": [
-            ".6"
+            ".3"
           ]
         },
         {
@@ -475,7 +496,7 @@
             "=",
             "9999",
             "=",
-            "99999"
+            "5000"
           ]
         },
         {
@@ -543,6 +564,50 @@
       "conditions": [
         {
           "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "8deb8a5d019982442bf18f1c02980e04d0742aeb3f509cb0b7b771f9f2718233_Walk_10.wav",
+            "2",
+            "yes",
+            "100",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "inverted": true,
             "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
           },
@@ -571,6 +636,15 @@
             "Animation",
             "=",
             "\"Idle\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
           ]
         }
       ]
@@ -607,6 +681,15 @@
             "Animation",
             "=",
             "\"Jump\""
+          ]
+        },
+        {
+          "type": {
+            "value": "StopSoundCanal"
+          },
+          "parameters": [
+            "",
+            "2"
           ]
         }
       ]
@@ -1227,36 +1310,11 @@
       "actions": [
         {
           "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
+            "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
-            "Black",
-            "Opacity",
-            "=",
-            "150"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "Animation",
-            "=",
-            "\"Pressed\""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Black",
-            "=",
-            "Hero.X()",
-            "=",
-            "Hero.Y()"
+            "InDialogue",
+            "True"
           ]
         }
       ]
@@ -1289,6 +1347,199 @@
             "9999",
             "=",
             "9999"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "Animation",
+            "=",
+            "\"ea784bb1c40bf2b23a857fc9220d1b76bff688e302c82a7fe4e1fd5f57170856_Square Speech Bubble_No Shadow\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Black",
+            "=",
+            "1000",
+            "=",
+            "5000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Black",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "Animation",
+            "=",
+            "\"Pressed\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Black",
+            "=",
+            "Hero.X()",
+            "=",
+            "Hero.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "923517cfc7f1500e851f0bbcdd357fe2b982745b128fcb3acc40d1a229575882_Click_02.aac",
+            "1",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            "=",
+            "TextBox.PointX(\"Text\")",
+            "=",
+            "TextBox.PointY(\"Text\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "TextLighting",
+            "=",
+            "TextBox.PointX(\"Center\")",
+            "=",
+            "TextBox.PointY(\"Center\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            "=",
+            "VariableString(WuDialogue[VariableString(WuDialogue[0])])"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "WuDialogue[0]",
+            "+",
+            "1"
           ]
         }
       ]
