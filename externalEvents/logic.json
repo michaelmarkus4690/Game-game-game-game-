@@ -1305,6 +1305,16 @@
             "",
             "e"
           ]
+        },
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "WuTalk",
+            "<",
+            "3"
+          ]
         }
       ],
       "actions": [
@@ -1507,6 +1517,16 @@
         },
         {
           "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "WuTalk",
+            "<",
+            "4"
+          ]
+        },
+        {
+          "type": {
             "value": "KeyPressed"
           },
           "parameters": [
@@ -1541,13 +1561,119 @@
             "+",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "WuTalk",
+            "+",
+            "1"
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "VarScene"
+          },
+          "parameters": [
+            "WuTalk",
+            "=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "=",
+            "9999",
+            "=",
+            "9999"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "Animation",
+            "=",
+            "\"ea784bb1c40bf2b23a857fc9220d1b76bff688e302c82a7fe4e1fd5f57170856_Square Speech Bubble_No Shadow\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Black",
+            "=",
+            "1000",
+            "=",
+            "5000"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "WuDialogue[0]",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "=",
+            "TestNPC.PointX(\"Bubble\")",
+            "=",
+            "TestNPC.PointY(\"Bubble\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "WuTalk",
+            "=",
+            "1"
+          ]
+        }
+      ]
     }
   ]
 }

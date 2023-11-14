@@ -1971,6 +1971,42 @@
         "name": "NewSprite54",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pngimg.com - fence_PNG104.png4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "pngimg.com - fence_PNG104.png4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pngimg.com - fence_PNG104.png4-20231114-093711.piskel",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngimg.com - fence_PNG104.png4-20231114-093711.piskel",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pngimg.com - fence_PNG104.png4-20231114-093804.piskel",
+        "kind": "image",
+        "metadata": "",
+        "name": "pngimg.com - fence_PNG104.png4-20231114-093804.piskel",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pngimg.com - fence_PNG104.png4-20231114-093804.piskel2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "pngimg.com - fence_PNG104.png4-20231114-093804.piskel2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
