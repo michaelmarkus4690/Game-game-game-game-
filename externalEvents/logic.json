@@ -46,6 +46,14 @@
           "parameters": [
             "KickPoint"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "security_guard_interact"
+          ]
         }
       ]
     },
@@ -73,6 +81,15 @@
             "yes",
             "100",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::LoadDialogueFromJsonFile"
+          },
+          "parameters": [
+            "",
+            "New dialogue tree"
           ]
         }
       ]
@@ -1751,111 +1768,6 @@
             "InDialogue",
             "True"
           ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "OpacityCapability::OpacityBehavior::SetValue"
-          },
-          "parameters": [
-            "Black",
-            "Opacity",
-            "=",
-            "150"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "Animation",
-            "=",
-            "\"Pressed\""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Black",
-            "=",
-            "Hero.X()",
-            "=",
-            "Hero.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "923517cfc7f1500e851f0bbcdd357fe2b982745b128fcb3acc40d1a229575882_Click_02.aac",
-            "1",
-            "",
-            "100",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "WU_NPCTEXT",
-            "=",
-            "TextBox.PointX(\"Text\")",
-            "=",
-            "TextBox.PointY(\"Text\")"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "TextLighting",
-            "=",
-            "TextBox.PointX(\"Center\")",
-            "=",
-            "TextBox.PointY(\"Center\")"
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "TextBox",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "WU_NPCTEXT",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "InDialogue",
-            "True"
-          ]
         },
         {
           "type": {
@@ -2100,6 +2012,166 @@
           "parameters": [
             "",
             "6"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "security_guard_interact",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "DialogueTree::StartDialogueFromBranch"
+          },
+          "parameters": [
+            "\"securityguard\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            "=",
+            "\"PLease enter your 4 digit code\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDialogue",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "Black",
+            "Opacity",
+            "=",
+            "150"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Dialogue_Bubble",
+            "Animation",
+            "=",
+            "\"Pressed\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Black",
+            "=",
+            "Hero.X()",
+            "=",
+            "Hero.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "923517cfc7f1500e851f0bbcdd357fe2b982745b128fcb3acc40d1a229575882_Click_02.aac",
+            "1",
+            "",
+            "100",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            "=",
+            "TextBox.PointX(\"Text\")",
+            "=",
+            "TextBox.PointY(\"Text\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "TextLighting",
+            "=",
+            "TextBox.PointX(\"Center\")",
+            "=",
+            "TextBox.PointY(\"Center\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "TextBox",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WU_NPCTEXT",
+            ""
           ]
         }
       ]
@@ -2945,18 +3017,6 @@
             "=",
             "Hero2.PointY(\"Kick\")"
           ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Scrap",
-            "Hero.X()",
-            "Hero.Y()",
-            ""
-          ]
         }
       ]
     },
@@ -2998,18 +3058,6 @@
           },
           "parameters": [
             "TEst",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Scrap",
-            "Hero2.X()",
-            "Hero2.Y()",
             ""
           ]
         }
