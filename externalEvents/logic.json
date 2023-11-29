@@ -54,6 +54,28 @@
           "parameters": [
             "security_guard_interact"
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "NewSprite25",
+            "Opacity",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "glass",
+            "Opacity",
+            "=",
+            "50"
+          ]
         }
       ]
     },
@@ -2066,7 +2088,7 @@
           "parameters": [
             "WU_NPCTEXT",
             "=",
-            "\"PLease enter your 4 digit code\""
+            "\"Please swipe your card\""
           ]
         }
       ]
@@ -3062,6 +3084,35 @@
           ]
         }
       ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Unlock",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "screen",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     }
   ]
 }
