@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.18305734955560068,
+    "zoomFactor": 0.1830573495556008,
     "windowMask": false
   },
   "objectsGroups": [
@@ -42,8 +42,8 @@
       "name": "Start",
       "persistentUuid": "3d0b2485-533f-438b-bf55-4921804bbace",
       "width": 199,
-      "x": 876,
-      "y": 962,
+      "x": 824,
+      "y": 1218,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -57,10 +57,26 @@
       "layer": "",
       "name": "Title",
       "persistentUuid": "b0d73e79-19d2-4be7-a50d-4e94284a2910",
-      "width": 571,
-      "x": 737,
-      "y": 84,
+      "width": 1490,
+      "x": 272,
+      "y": 114,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 95,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "a183f2f0-7607-4596-bacf-9d43a3c81bab",
+      "width": 617,
+      "x": 638,
+      "y": 905,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -144,14 +160,76 @@
       "effects": [],
       "behaviors": [],
       "string": "The Kaiju Warrior",
-      "font": "",
+      "font": "490034af0b44b2d8e88911e4b30bf82a51e9fd67c1688a44a9c36e10ea360cd8_Kenney Pixel.ttf",
       "textAlignment": "left",
-      "characterSize": 50,
+      "characterSize": 250,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 67,
+        "g": 67,
+        "r": 68
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite95",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 0
+                      },
+                      {
+                        "x": 200,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -261,6 +339,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
     {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
