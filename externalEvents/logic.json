@@ -76,6 +76,22 @@
             "=",
             "50"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "cardswipe_interact"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "moveupwards_box"
+          ]
         }
       ]
     },
@@ -98,7 +114,7 @@
           },
           "parameters": [
             "",
-            "b4815b730ea5946a1b2d0e32a5cec91c8a1a0bb07be1fa2e5ba2e03b69d75437_Hold on a Sec.aac",
+            "9294aa9ce37265f7e0348d49207fdb14ae20a44f38875c1961d8fa4b120b5e6d_25 - In the Land of Morose Where the Ladies Smoke Cloves.aac",
             "1",
             "yes",
             "100",
@@ -2340,6 +2356,16 @@
             "no",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "LocationText",
+            "=",
+            "\"Musuem\""
+          ]
         }
       ]
     },
@@ -3112,6 +3138,38 @@
           ]
         }
       ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Hero",
+            "cardswipe_interact",
+            "=",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
       "actions": []
     }
   ]
