@@ -625,7 +625,7 @@
         "alwaysLoaded": false,
         "file": "assets/Walk.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk.png\"}",
         "name": "Walk",
         "smoothed": true,
         "userAdded": false
@@ -634,7 +634,7 @@
         "alwaysLoaded": false,
         "file": "alex walking2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking2.png\",\"extension\":\".png\"}",
         "name": "alex walking2.png",
         "smoothed": true,
         "userAdded": true
@@ -643,7 +643,7 @@
         "alwaysLoaded": false,
         "file": "alex walking3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking3.png\",\"extension\":\".png\"}",
         "name": "alex walking3.png",
         "smoothed": true,
         "userAdded": true
@@ -652,7 +652,7 @@
         "alwaysLoaded": false,
         "file": "alex walking4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking4.png\",\"extension\":\".png\"}",
         "name": "alex walking4.png",
         "smoothed": true,
         "userAdded": true
@@ -661,7 +661,7 @@
         "alwaysLoaded": false,
         "file": "alex walking5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking5.png\",\"extension\":\".png\"}",
         "name": "alex walking5.png",
         "smoothed": true,
         "userAdded": true
@@ -670,7 +670,7 @@
         "alwaysLoaded": false,
         "file": "alex walking6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking6.png\",\"extension\":\".png\"}",
         "name": "alex walking6.png",
         "smoothed": true,
         "userAdded": true
@@ -679,7 +679,7 @@
         "alwaysLoaded": false,
         "file": "alex walking7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking7.png\",\"extension\":\".png\"}",
         "name": "alex walking7.png",
         "smoothed": true,
         "userAdded": true
@@ -688,7 +688,7 @@
         "alwaysLoaded": false,
         "file": "alex walking0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"alex walking0.png\",\"extension\":\".png\"}",
         "name": "alex walking0.png",
         "smoothed": true,
         "userAdded": true
@@ -3903,6 +3903,168 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "2064ebc84f5a17dc1e336dbd6d7de707.jpg5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/belt on box .png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/belt on box .png\"}",
+        "name": "belt on box ",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/belt on box1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "belt on box1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/box2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "box2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite105.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite105",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite106.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite106",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite107.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite107",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite108.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite108",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite109.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite109",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/looking forward.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "looking forward",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/looking forward2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "looking forward2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/looking forward3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "looking forward3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/looking forward4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "looking forward4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/looking forward5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "looking forward5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite110.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite110",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite111.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite111",
         "smoothed": true,
         "userAdded": true
       }
