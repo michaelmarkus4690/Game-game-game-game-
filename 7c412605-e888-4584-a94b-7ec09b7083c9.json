@@ -3901,7 +3901,7 @@
         "alwaysLoaded": false,
         "file": "assets/2064ebc84f5a17dc1e336dbd6d7de707.jpg5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/2064ebc84f5a17dc1e336dbd6d7de707.jpg5.png\"}",
         "name": "2064ebc84f5a17dc1e336dbd6d7de707.jpg5",
         "smoothed": true,
         "userAdded": true
@@ -4045,7 +4045,7 @@
         "alwaysLoaded": false,
         "file": "assets/looking forward5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/looking forward5.png\"}",
         "name": "looking forward5",
         "smoothed": true,
         "userAdded": true
@@ -4280,7 +4280,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite124.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite124.png\"}",
         "name": "NewSprite115",
         "smoothed": true,
         "userAdded": true
@@ -4289,14 +4289,14 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite124.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite124.png\"}",
         "name": "NewSprite116",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NewSprite124.png",
+        "file": "assets/NewSprite125.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite117",
@@ -4307,8 +4307,302 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite124.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite124.png\"}",
         "name": "NewSprite118",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite126.png\"}",
+        "name": "NewSprite119",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite126.png\"}",
+        "name": "NewSprite120",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite126.png\"}",
+        "name": "NewSprite121",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite126.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite126.png\"}",
+        "name": "NewSprite122",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Wu Head-4.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wu Head-4.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Wu Head-3.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wu Head-3.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Wu Head-2.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wu Head-2.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Wu Head-1.png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Wu Head-1.png.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "946774e9453757ad42b06fc33a94af760023d3dfb1ccf33e8cc20a6f5101be75_bush11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite127.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite127.png\"}",
+        "name": "NewSprite123",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image44",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image46.png\"}",
+        "name": "New image45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image48.png\"}",
+        "name": "New image47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image48",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image__3_-removebg-preview.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/image__3_-removebg-preview.png\"}",
+        "name": "image__3_-removebg-preview",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image__3_-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/image__3_-removebg-preview2.png\"}",
+        "name": "image__3_-removebg-preview2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image__3_-removebg-preview3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "image__3_-removebg-preview3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Blip 2.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "483c313c13e5af9aac8770d0f5b22a1b1213b889e7a58756c481604fbffd3830_Blip 2.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Blip/483c313c13e5af9aac8770d0f5b22a1b1213b889e7a58756c481604fbffd3830_Blip 2.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite128.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite124",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Green",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Explosion 3.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "3f85124583aa66e58db8c5fee9196cec591107e3ec0d6ccb5b03062d25c087e1_Explosion 3.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Arcade/Sound effects/Explosions/3f85124583aa66e58db8c5fee9196cec591107e3ec0d6ccb5b03062d25c087e1_Explosion 3.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite129.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite125",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite130.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite126",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite131.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite127",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Hopeful.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Music/Comedy/9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite132.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite128",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite133.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite129",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite134.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite130",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite135.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite131",
         "smoothed": true,
         "userAdded": true
       }
@@ -4373,18 +4667,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/soundvolumebasedondistance"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/reflection"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/homingprojectile"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/curvedmovement"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

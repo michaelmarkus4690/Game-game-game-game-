@@ -108,6 +108,50 @@
           "parameters": [
             "InteractButton"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WuTalkingHead"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InteractArea"
+          ]
+        },
+        {
+          "type": {
+            "value": "CacheSouris"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LookingForward",
+            "SmoothCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LookingForward",
+            "SmoothPlatformerCamera",
+            "yes"
+          ]
         }
       ]
     },
@@ -130,7 +174,7 @@
           },
           "parameters": [
             "",
-            "9294aa9ce37265f7e0348d49207fdb14ae20a44f38875c1961d8fa4b120b5e6d_25 - In the Land of Morose Where the Ladies Smoke Cloves.aac",
+            "9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
             "1",
             "yes",
             "100",
@@ -1104,6 +1148,106 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Characters",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateLeftKey"
+          },
+          "parameters": [
+            "Characters",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Characters",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateRightKey"
+          },
+          "parameters": [
+            "Characters",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "Characters",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateUpKey"
+          },
+          "parameters": [
+            "Characters",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::SimulateDownKey"
+          },
+          "parameters": [
+            "Characters",
+            "PlatformerObject"
+          ]
+        }
+      ]
+    },
+    {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
@@ -1124,7 +1268,7 @@
           },
           "parameters": [
             "BirdOne",
-            "GoBack",
+            "Platform",
             "",
             "",
             ""
@@ -1171,7 +1315,21 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "BirdTwo",
+            "Platform",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -1191,7 +1349,7 @@
             "value": "BoidsMovement::BoidsMovement::SetCohesionWeight"
           },
           "parameters": [
-            "BirdOne",
+            "BirdTwo",
             "BoidsMovement",
             "-.05",
             ""
@@ -1219,7 +1377,7 @@
           },
           "parameters": [
             "BirdOne",
-            "GoBack",
+            "Platform",
             "",
             "",
             ""
@@ -1234,35 +1392,62 @@
           "parameters": [
             "BirdOne",
             "BoidsMovement",
-            "-2000",
+            "-1000",
             "0",
             "5",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
         {
           "type": {
-            "value": "RotateTowardAngle"
+            "value": "CollisionNP"
           },
           "parameters": [
-            "BirdOne",
-            "25",
-            "100",
+            "BirdTwo",
+            "Platform",
+            "",
+            "",
             ""
           ]
-        },
+        }
+      ],
+      "actions": [
         {
           "type": {
-            "value": "BoidsMovement::BoidsMovement::SetCohesionWeight"
+            "value": "BoidsMovement::BoidsMovement::MoveInDirection"
           },
           "parameters": [
-            "BirdOne",
+            "BirdTwo",
             "BoidsMovement",
-            "-.05",
+            "-1000",
+            "0",
+            "5",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Characters",
+            "Birds",
+            "500",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -1909,6 +2094,14 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "WuTalkingHead"
+          ]
         }
       ]
     },
@@ -2178,6 +2371,15 @@
             "TextBox.PointX(\"TalkingHead\")",
             "=",
             "TextBox.PointY(\"TalkingHead\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "WuTalkingHead",
+            ""
           ]
         }
       ]
@@ -3061,33 +3263,6 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "Hero",
-            "cardswipe_interact",
-            "=",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "e"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     },
@@ -3398,58 +3573,39 @@
       ]
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Cursor",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "BuiltinCommonInstructions::Always"
           },
           "parameters": [
-            "Characters",
-            "computerinteract",
-            "",
-            "",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "e"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "MettreXY"
           },
           "parameters": [
-            "InteractButton",
-            "Animation",
+            "Cursor",
             "=",
-            "\"Clicked\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "onlymp3.to - stone_table_crack-Sa1KQew_0OQ-192k-1701793690.mp3",
-            "",
-            "100",
-            ""
+            "CursorX()",
+            "=",
+            "CursorY()"
           ]
         }
       ]
