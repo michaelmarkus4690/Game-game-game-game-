@@ -1649,7 +1649,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC2.png\"}",
         "name": "TestNPC2",
         "smoothed": true,
         "userAdded": true
@@ -1658,7 +1658,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC3.png\"}",
         "name": "TestNPC3",
         "smoothed": true,
         "userAdded": true
@@ -1667,7 +1667,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC4.png\"}",
         "name": "TestNPC4",
         "smoothed": true,
         "userAdded": true
@@ -1676,7 +1676,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC5.png\"}",
         "name": "TestNPC5",
         "smoothed": true,
         "userAdded": true
@@ -1685,7 +1685,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC6.png\"}",
         "name": "TestNPC6",
         "smoothed": true,
         "userAdded": true
@@ -1694,7 +1694,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC7.png\"}",
         "name": "TestNPC7",
         "smoothed": true,
         "userAdded": true
@@ -1703,7 +1703,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC8.png\"}",
         "name": "TestNPC8",
         "smoothed": true,
         "userAdded": true
@@ -1712,7 +1712,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC9.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC9.png\"}",
         "name": "TestNPC9",
         "smoothed": true,
         "userAdded": true
@@ -1721,7 +1721,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC10.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC10.png\"}",
         "name": "TestNPC10",
         "smoothed": true,
         "userAdded": true
@@ -1730,7 +1730,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC11.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC11.png\"}",
         "name": "TestNPC11",
         "smoothed": true,
         "userAdded": true
@@ -1739,7 +1739,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC12.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC12.png\"}",
         "name": "TestNPC12",
         "smoothed": true,
         "userAdded": true
@@ -1748,7 +1748,7 @@
         "alwaysLoaded": false,
         "file": "assets/TestNPC13.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TestNPC13.png\"}",
         "name": "TestNPC13",
         "smoothed": true,
         "userAdded": true
@@ -1897,7 +1897,7 @@
         "alwaysLoaded": false,
         "file": "assets/bd1b1275fdc0ac7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/bd1b1275fdc0ac7.png\"}",
         "name": "bd1b1275fdc0ac7",
         "smoothed": false,
         "userAdded": true
@@ -4067,11 +4067,194 @@
         "name": "NewSprite111",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/notTalking.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/notTalking.png\"}",
+        "name": "notTalking",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite121.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite112",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked4",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked5",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked7",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked8",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked10",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked11",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked12",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked15",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked16",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked17",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Clicked18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Clicked18",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
   "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "objectsGroups": [],
   "variables": [
     {

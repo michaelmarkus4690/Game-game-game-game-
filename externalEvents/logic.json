@@ -2059,6 +2059,17 @@
             "",
             "6"
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "TestNPC",
+            "Animation",
+            "=",
+            "\"WuStand\""
+          ]
         }
       ]
     },
@@ -2218,6 +2229,17 @@
           "parameters": [
             "WU_NPCTEXT",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "TestNPC",
+            "Animation",
+            "=",
+            "\"TestNPC\""
           ]
         }
       ]
@@ -3303,7 +3325,7 @@
             "value": "Montre"
           },
           "parameters": [
-            "NewSprite34",
+            "InteractButton",
             ""
           ]
         }
@@ -3332,7 +3354,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "NewSprite34"
+            "InteractButton"
           ]
         }
       ]
