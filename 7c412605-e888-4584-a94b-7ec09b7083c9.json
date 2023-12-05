@@ -4605,6 +4605,24 @@
         "name": "NewSprite131",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite136.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite136.png\"}",
+        "name": "NewSprite132",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite137.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite133",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

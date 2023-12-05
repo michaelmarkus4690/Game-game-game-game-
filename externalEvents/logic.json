@@ -152,6 +152,14 @@
             "SmoothPlatformerCamera",
             "yes"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "MusuemTeleport"
+          ]
         }
       ]
     },
@@ -2468,7 +2476,7 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "Hero",
+            "LookingForward",
             "MusuemTeleport",
             "",
             "",
@@ -2535,6 +2543,55 @@
             "LocationText",
             "=",
             "\"Jurrasic Musuem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LookingForward",
+            "SmoothCamera",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "LookingForward",
+            "SmoothPlatformerCamera",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothPlatformerCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Hero",
+            ""
           ]
         }
       ]
