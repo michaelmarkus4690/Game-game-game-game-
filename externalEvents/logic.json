@@ -100,6 +100,14 @@
           "parameters": [
             "computerinteract"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InteractButton"
+          ]
         }
       ]
     },
@@ -1672,20 +1680,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "=",
-            "TestNPC.PointX(\"Bubble\")",
-            "=",
-            "TestNPC.PointY(\"Bubble\")"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1754,34 +1749,11 @@
       "actions": [
         {
           "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "=",
-            "9999",
-            "=",
-            "9999"
-          ]
-        },
-        {
-          "type": {
             "value": "SetSceneVariableAsBoolean"
           },
           "parameters": [
             "InDialogue",
             "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "Animation",
-            "=",
-            "\"ea784bb1c40bf2b23a857fc9220d1b76bff688e302c82a7fe4e1fd5f57170856_Square Speech Bubble_No Shadow\""
           ]
         },
         {
@@ -1903,29 +1875,6 @@
             "value": "MettreXY"
           },
           "parameters": [
-            "Dialogue_Bubble",
-            "=",
-            "9999",
-            "=",
-            "9999"
-          ]
-        },
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "Animation",
-            "=",
-            "\"ea784bb1c40bf2b23a857fc9220d1b76bff688e302c82a7fe4e1fd5f57170856_Square Speech Bubble_No Shadow\""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
             "Black",
             "=",
             "1000",
@@ -1941,18 +1890,6 @@
             "WuDialogue[0]",
             "=",
             "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "=",
-            "TestNPC.PointX(\"Bubble\")",
-            "=",
-            "TestNPC.PointY(\"Bubble\")"
           ]
         },
         {
@@ -2155,17 +2092,6 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Dialogue_Bubble",
-            "Animation",
-            "=",
-            "\"Pressed\""
-          ]
-        },
-        {
-          "type": {
             "value": "MettreXY"
           },
           "parameters": [
@@ -2240,6 +2166,18 @@
             "Animation",
             "=",
             "\"TestNPC\""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "WuTalkingHead",
+            "=",
+            "TextBox.PointX(\"TalkingHead\")",
+            "=",
+            "TextBox.PointY(\"TalkingHead\")"
           ]
         }
       ]
@@ -3390,53 +3328,128 @@
           "parameters": []
         }
       ],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Interaction",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Characters",
+            "InteractArea",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "SetSceneVariableAsBoolean"
+            "value": "Montre"
           },
           "parameters": [
-            "DefaultMovement",
+            "InteractButton",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Characters",
+            "InteractArea",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "InteractButton"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Characters",
+            "computerinteract",
+            "",
+            "",
             ""
           ]
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Hero",
-            "Animation",
-            "=",
-            "\"looking forward\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlatformBehavior::MaxSpeed"
-          },
-          "parameters": [
-            "Hero",
-            "PlatformerObject",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "ShowLayer"
+            "value": "KeyPressed"
           },
           "parameters": [
             "",
-            "\"Dino Droopings\""
+            "e"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "InteractButton",
+            "Animation",
+            "=",
+            "\"Clicked\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "onlymp3.to - stone_table_crack-Sa1KQew_0OQ-192k-1701793690.mp3",
+            "",
+            "100",
+            ""
           ]
         }
       ]
