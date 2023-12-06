@@ -160,6 +160,18 @@
           "parameters": [
             "MusuemTeleport"
           ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "RedGlow",
+            "=",
+            "Hero2.PointX(\"Center\")",
+            "=",
+            "Hero2.PointY(\"Center\")"
+          ]
         }
       ]
     },
@@ -2482,6 +2494,12 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -2491,6 +2509,26 @@
           },
           "parameters": [
             "InMuseum"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Hero",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothCamera",
+            "yes",
+            ""
           ]
         },
         {
@@ -2507,56 +2545,6 @@
         },
         {
           "type": {
-            "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
-          },
-          "parameters": [
-            "Hero",
-            "SmoothCamera",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "2"
-          ]
-        },
-        {
-          "type": {
-            "value": "SmoothCamera::SmoothCamera::SetFollowOnY"
-          },
-          "parameters": [
-            "Hero",
-            "SmoothCamera",
-            "no",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "LocationText",
-            "=",
-            "\"Jurrasic Musuem\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ActivateBehavior"
-          },
-          "parameters": [
-            "LookingForward",
-            "SmoothCamera",
-            "no"
-          ]
-        },
-        {
-          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
@@ -2570,9 +2558,9 @@
             "value": "ActivateBehavior"
           },
           "parameters": [
-            "Hero",
-            "SmoothPlatformerCamera",
-            "yes"
+            "LookingForward",
+            "SmoothCamera",
+            "no"
           ]
         },
         {
@@ -2587,10 +2575,30 @@
         },
         {
           "type": {
-            "value": "Montre"
+            "value": "ActivateBehavior"
           },
           "parameters": [
             "Hero",
+            "SmoothPlatformerCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "LocationText",
+            "=",
+            "\"Jurrasic Musuem\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "LookingForward",
             ""
           ]
         }
@@ -2617,7 +2625,7 @@
           "parameters": [
             "",
             "\"Lighting\"",
-            "\"175;172;172\""
+            "\"90;90;90\""
           ]
         }
       ]
@@ -3374,6 +3382,66 @@
             "hasBelt",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Minion",
+            "12000",
+            "9000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Minion",
+            "10000",
+            "9000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Minion",
+            "8000",
+            "9000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Minion",
+            "6000",
+            "9000",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Minion",
+            "4000",
+            "9000",
+            ""
+          ]
         }
       ]
     },
@@ -3663,6 +3731,58 @@
             "CursorX()",
             "=",
             "CursorY()"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "BeltShoot",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonReleased"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "hasBelt",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FireBullet::FireBullet::FireTowardPosition"
+          },
+          "parameters": [
+            "Hero2",
+            "FireBullet",
+            "Hero2.PointX(\"Center\")",
+            "Hero2.PointY(\"Center\")",
+            "Bullet",
+            "Cursor.X()",
+            "Cursor.Y()",
+            "1500",
+            ""
           ]
         }
       ]
