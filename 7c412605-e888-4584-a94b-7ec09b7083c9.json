@@ -5075,6 +5075,15 @@
         "name": "NewSprite169",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite170.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite170",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
