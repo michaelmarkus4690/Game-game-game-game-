@@ -93,6 +93,7 @@
     {
       "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
       "name": "LevelOne",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -156,6 +157,7 @@
     {
       "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
       "name": "LevelTwo",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -219,6 +221,7 @@
     {
       "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
       "name": "LevelThree",
+      "tags": "",
       "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
@@ -283,6 +286,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "UnlockTest",
+      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -351,23 +355,6 @@
       ]
     }
   ],
-  "objectsFolderStructure": {
-    "folderName": "__ROOT",
-    "children": [
-      {
-        "objectName": "LevelOne"
-      },
-      {
-        "objectName": "LevelTwo"
-      },
-      {
-        "objectName": "LevelThree"
-      },
-      {
-        "objectName": "UnlockTest"
-      }
-    ]
-  },
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -389,7 +376,7 @@
           },
           "parameters": [
             "",
-            "\"LevelOne\"",
+            "\"Level123\"",
             ""
           ]
         }
@@ -424,7 +411,7 @@
           },
           "parameters": [
             "",
-            "\"LevelOne\"",
+            "\"Level123\"",
             ""
           ]
         }
@@ -459,7 +446,7 @@
           },
           "parameters": [
             "",
-            "\"LevelOne\"",
+            "\"Level123\"",
             ""
           ]
         }

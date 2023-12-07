@@ -1,5 +1,5 @@
 {
-  "associatedLayout": "LevelOne",
+  "associatedLayout": "Level123",
   "lastChangeTimeStamp": 0,
   "name": "Logic",
   "events": [
@@ -195,6 +195,14 @@
           },
           "parameters": [
             "hitpoint"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Lvl2_Spawn"
           ]
         }
       ]
@@ -2557,6 +2565,16 @@
           "parameters": [
             "LookingForward",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetLayerAmbientLightColor"
+          },
+          "parameters": [
+            "",
+            "",
+            "\"255;255;255\""
           ]
         }
       ]
