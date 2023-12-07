@@ -5084,6 +5084,228 @@
         "name": "NewSprite170",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite171.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite171",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite172.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite172.png\"}",
+        "name": "NewSprite172",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite173.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite173",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite174.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite174",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite175.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite175",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite176.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite176",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite177.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite177.png\"}",
+        "name": "NewSprite177",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite178.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite178",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Glass Breaking 1.aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "24ff0a52cfcce9955d5ddeb47a10d5b5d50c398ccd52f242b50f8e3f1720700e_Glass Breaking 1.aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Sound/24ff0a52cfcce9955d5ddeb47a10d5b5d50c398ccd52f242b50f8e3f1720700e_Glass Breaking 1.aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ProjectileHit14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ProjectileHit14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "onlymp3.to - stone_table_crack-Sa1KQew_0OQ-192k-1701793689.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "onlymp3.to - stone_table_crack-Sa1KQew_0OQ-192k-1701793689.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5147,6 +5369,10 @@
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/advancedprojectile"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/homingprojectile"

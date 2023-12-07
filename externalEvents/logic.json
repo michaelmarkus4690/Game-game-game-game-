@@ -204,6 +204,22 @@
           "parameters": [
             "Lvl2_Spawn"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HealthBar"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HealthBackground"
+          ]
         }
       ]
     },
@@ -594,6 +610,26 @@
             "",
             "\"Menu\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectWidthTween"
+          },
+          "parameters": [
+            "HealthBar",
+            "Tween",
+            "\"healthbar\"",
+            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500",
+            "\"easeInQuad\"",
+            "50",
+            "no"
           ]
         }
       ]
@@ -3929,22 +3965,113 @@
             "hasBelt",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Cursor",
+            "RockProjectile",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "FireBullet::FireBullet::FireTowardPosition"
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "onlymp3.to - stone_table_crack-Sa1KQew_0OQ-192k-1701793689.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "RockProjectile",
+            "Animation",
+            "=",
+            "\"ProjectileHit\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "hasBelt",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HealthBar",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HealthBackground",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "RockProjectile",
+            "Hero2",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
           },
           "parameters": [
             "Hero2",
-            "FireBullet",
-            "Hero2.PointX(\"Center\")",
-            "Hero2.PointY(\"Center\")",
-            "Bullet",
-            "Cursor.X()",
-            "Cursor.Y()",
-            "1500",
+            "Health",
+            "25",
+            "",
+            "",
             ""
           ]
         }
