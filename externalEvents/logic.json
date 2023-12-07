@@ -36,22 +36,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "PunchPoint"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "KickPoint"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "security_guard_interact"
           ]
         },
@@ -172,6 +156,46 @@
             "=",
             "Hero2.PointY(\"Center\")"
           ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "levelonebossfight"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossHealth"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "KickPoint"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "PunchPoint"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "hitpoint"
+          ]
         }
       ]
     },
@@ -190,19 +214,6 @@
       "actions": [
         {
           "type": {
-            "value": "PlayMusicCanal"
-          },
-          "parameters": [
-            "",
-            "9fe230e44f1da3d62eefe7efd9d7b1b9deb847c89d21a4905ba0a50faa7af459_Hopeful.aac",
-            "1",
-            "yes",
-            "100",
-            ""
-          ]
-        },
-        {
-          "type": {
             "value": "DialogueTree::LoadDialogueFromJsonFile"
           },
           "parameters": [
@@ -215,7 +226,22 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::AddObjectWidthTween"
+          },
+          "parameters": [
+            "HealthBar",
+            "Tween",
+            "\"healthbar\"",
+            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500",
+            "\"easeInQuad\"",
+            "50",
+            "no"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -314,46 +340,11 @@
       "conditions": [
         {
           "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "Trees",
-            "d"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Health::Health::Hit"
-          },
-          "parameters": [
-            "Hero2",
-            "Health",
-            "10",
-            "no",
-            "no",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
-            "Hero2",
-            "Minion",
+            "MinionRight",
+            "hitpoint",
             "",
             "",
             ""
@@ -398,6 +389,66 @@
           "parameters": [
             "Hero2",
             "-3000",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "MinionLeft",
+            "hitpoint",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "RepeatEveryXSeconds::Repeat"
+          },
+          "parameters": [
+            "",
+            "\"hitloop\"",
+            "1",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Hero2",
+            "Health",
+            "10",
+            "no",
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "Hero2",
+            "3000",
             "0",
             "0"
           ]
@@ -1718,100 +1769,6 @@
       "parameters": []
     },
     {
-      "disabled": true,
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "LightningFlashed",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "Choose::RandomNumber(\"8,7,9,10,15,20,25,30\")"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "LightningFlashed",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySoundCanal"
-          },
-          "parameters": [
-            "",
-            "Thunder   Sound effect2.mp3",
-            "10",
-            "",
-            "30",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Lightning_Flash_",
-            "=",
-            "Hero.X()",
-            "=",
-            "Hero.Y()"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            ".1"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "Lightning_Flash_",
-            "=",
-            "100000",
-            "=",
-            "10000"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "LightningFlashed",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
@@ -2841,7 +2798,7 @@
             "value": "Wait"
           },
           "parameters": [
-            "0.16"
+            "0.4"
           ]
         },
         {
@@ -3039,67 +2996,8 @@
             "value": "CollisionNP"
           },
           "parameters": [
-            "KickPoint",
-            "Minion",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "kick",
-            "True"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Health::Health::Hit"
-          },
-          "parameters": [
-            "Minion",
-            "Health",
-            "100",
-            "",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "dafb79fda1449ac80c3d42b10691c1d256b37728cb0a7f2b86fb1597632f3ce2_Scream 2.aac",
-            "",
-            "200",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
             "PunchPoint",
-            "Minion",
+            "MinionRight",
             "",
             "",
             ""
@@ -3127,7 +3025,7 @@
             "value": "Health::Health::Hit"
           },
           "parameters": [
-            "Minion",
+            "MinionRight",
             "Health",
             "100",
             "",
@@ -3169,7 +3067,7 @@
             "value": "Health::Health::Health"
           },
           "parameters": [
-            "Minion",
+            "MinionRight",
             "Health",
             "=",
             "0",
@@ -3189,7 +3087,230 @@
             "value": "Delete"
           },
           "parameters": [
-            "Minion",
+            "MinionRight",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "KickPoint",
+            "MinionRight",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "kick",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "MinionRight",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "dafb79fda1449ac80c3d42b10691c1d256b37728cb0a7f2b86fb1597632f3ce2_Scream 2.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "KickPoint",
+            "MinionLeft",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "kick",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "MinionLeft",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "dafb79fda1449ac80c3d42b10691c1d256b37728cb0a7f2b86fb1597632f3ce2_Scream 2.aac",
+            "",
+            "200",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "PunchPoint",
+            "MinionLeft",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "punch",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "MinionLeft",
+            "Health",
+            "100",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "dafb79fda1449ac80c3d42b10691c1d256b37728cb0a7f2b86fb1597632f3ce2_Scream 2.aac",
+            "",
+            "200",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Scrap",
+            "Hero2.X()",
+            "Hero2.Y()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::Health"
+          },
+          "parameters": [
+            "MinionLeft",
+            "Health",
+            "=",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "MinionLeft",
             ""
           ]
         }
@@ -3204,11 +3325,23 @@
             "value": "PathfindingBehavior::SetDestination"
           },
           "parameters": [
-            "Minion",
+            "MinionRight",
             "Pathfinding",
             "",
             "Hero2.X()",
-            "Minion.Y()"
+            "MinionRight.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "PathfindingBehavior::SetDestination"
+          },
+          "parameters": [
+            "MinionLeft",
+            "Pathfinding",
+            "",
+            "Hero2.X()",
+            "MinionLeft.Y()"
           ]
         }
       ]
@@ -3250,6 +3383,18 @@
             "Hero2.PointX(\"Kick\")",
             "=",
             "Hero2.PointY(\"Kick\")"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "hitpoint",
+            "=",
+            "Hero2.PointX(\"Hitpoint\")",
+            "=",
+            "Hero2.PointY(\"Hitpoint\")"
           ]
         }
       ]
@@ -3389,7 +3534,7 @@
           },
           "parameters": [
             "",
-            "Minion",
+            "MinionRight",
             "12000",
             "9000",
             ""
@@ -3401,7 +3546,7 @@
           },
           "parameters": [
             "",
-            "Minion",
+            "MinionRight",
             "10000",
             "9000",
             ""
@@ -3413,7 +3558,7 @@
           },
           "parameters": [
             "",
-            "Minion",
+            "MinionRight",
             "8000",
             "9000",
             ""
@@ -3425,7 +3570,7 @@
           },
           "parameters": [
             "",
-            "Minion",
+            "MinionRight",
             "6000",
             "9000",
             ""
@@ -3437,7 +3582,7 @@
           },
           "parameters": [
             "",
-            "Minion",
+            "MinionRight",
             "4000",
             "9000",
             ""
