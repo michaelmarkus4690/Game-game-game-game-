@@ -170,14 +170,6 @@
             "value": "Cache"
           },
           "parameters": [
-            "BossHealth"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
             "KickPoint"
           ]
         },
@@ -210,7 +202,7 @@
             "value": "Cache"
           },
           "parameters": [
-            "HealthBar"
+            "bossback"
           ]
         },
         {
@@ -218,7 +210,31 @@
             "value": "Cache"
           },
           "parameters": [
-            "HealthBackground"
+            "boss_forward"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "GoBack"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Cloud"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossFightLevel2Detect"
           ]
         }
       ]
@@ -243,6 +259,98 @@
           "parameters": [
             "",
             "New dialogue tree"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Respawn\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HealthBackground"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HealthBar"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossHealth3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossHealth"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "BossHealth2"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "TVoverlay",
+            "Opacity",
+            "=",
+            "50"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Cursor"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "MazeWall"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewSprite46"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "NewText3"
           ]
         }
       ]
@@ -333,31 +441,29 @@
         },
         {
           "type": {
-            "value": "Wait"
+            "value": "ShowLayer"
           },
           "parameters": [
-            "8"
-          ]
-        },
-        {
-          "type": {
-            "value": "ToggleGlobalVariableAsBoolean"
-          },
-          "parameters": [
-            "HeroAlive"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "Scrap",
-            "=",
-            "0"
+            "",
+            "\"Respawn\""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Retry",
+            ""
+          ]
+        }
+      ],
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -633,6 +739,123 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Retry",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InLevelOne",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "LayerVisible"
+          },
+          "parameters": [
+            "",
+            "\"Respawn\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level123\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Retry",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InLevelTwo",
+            "True"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Retry",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InLevelThree",
+            "True"
+          ]
+        }
+      ],
+      "actions": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Respawn",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     },
     {
       "colorB": 228,
@@ -992,6 +1215,15 @@
             "hasBelt",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "False"
+          ]
         }
       ],
       "actions": [
@@ -1134,6 +1366,15 @@
           "parameters": [
             "hasBelt",
             "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "False"
           ]
         }
       ],
@@ -2490,7 +2731,7 @@
           },
           "parameters": [
             "LookingForward",
-            "MusuemTeleport",
+            "NewSprite42",
             "",
             "",
             ""
@@ -3797,6 +4038,17 @@
       ]
     },
     {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Dino Droppings",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -3825,9 +4077,877 @@
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "False"
+          ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Hero",
+            "Animation",
+            "=",
+            "\"looking forward\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothPlatformerCamera",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothCamera",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".5"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "white",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraZoom2"
+          },
+          "parameters": [
+            "",
+            "\"zoomingintocomputer\"",
+            "50",
+            "",
+            "\"easeInQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"HUD\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "1.5"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraZoom2"
+          },
+          "parameters": [
+            "",
+            "\"zoomingintocomputer\"",
+            "1",
+            "",
+            "\"easeInQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "DinosaurDroppingsContainer",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "TVoverlay",
+            "=",
+            "DinosaurDroppingsContainer.X()",
+            "=",
+            "DinosaurDroppingsContainer.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Cursor",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewSprite34",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Tv turn off sound effect  sound effect  free download.mp3",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "Old Creepy TV Television Radio Static Sound Effect SFX.mp3",
+            "5",
+            "yes",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Cursor",
+            "=",
+            "TransparentButtonWithWhiteBlueBorder.X()",
+            "=",
+            "TransparentButtonWithWhiteBlueBorder.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "da0877017d351d77a464918a156e243162bb0b7e56598a0812ad49a1e6300e94_Click_01.aac",
+            "5",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "DinoDropping",
+            "-5300",
+            "6800",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "MazeWall",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "DinoDropping",
+            "Tween",
+            "\"movement\"",
+            "DinoDropping.X()+10",
+            "\"linear\"",
+            ".01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+          },
+          "parameters": [
+            "DinoDropping",
+            "Tween",
+            "\"movement\"",
+            "DinoDropping.X()-10",
+            "\"linear\"",
+            ".01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "DinoDropping",
+            "Tween",
+            "\"movement\"",
+            "DinoDropping.Y()-10",
+            "\"linear\"",
+            ".01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+          },
+          "parameters": [
+            "DinoDropping",
+            "Tween",
+            "\"movement\"",
+            "DinoDropping.Y()+10",
+            "\"linear\"",
+            ".01",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "DinoDropping",
+            "MazeWall",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "DinoDropping",
+            "=",
+            "-5300",
+            "=",
+            "6800"
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::StopTween"
+          },
+          "parameters": [
+            "DinoDropping",
+            "Tween",
+            "\"movement\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "DinoDropping",
+            "=",
+            "-5300",
+            "=",
+            "6800"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            ".01"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "DinoDropping",
+            "=",
+            "-5300",
+            "=",
+            "6800"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "15c1fd4d359b7842ce8e34e21065114f771e8123fc58a13da32310b764544b5b_Denied_02.aac",
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "DinoDropping",
+            "NewSprite46",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "MazeWall"
+          ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "NewText3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "DinoDropping",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySoundCanal"
+          },
+          "parameters": [
+            "",
+            "b9ab279dc8ac9ec62164444742695824b9806e01cb49f710937ebdce919e72ee_Coins 2.aac",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "UndoGame",
+            "True"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariableAsBoolean"
+          },
+          "parameters": [
+            "UndoGame",
+            "True"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "50",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "white",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraZoom2"
+          },
+          "parameters": [
+            "",
+            "\"zoomingintocomputer\"",
+            "1",
+            "",
+            "\"easeInQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothPlatformerCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"HUD\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Escape"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "50",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "InDinoDroppings",
+            "False"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "white",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Tween::TweenCameraZoom2"
+          },
+          "parameters": [
+            "",
+            "\"zoomingintocomputer\"",
+            "1",
+            "",
+            "\"easeInQuad\"",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "SmoothPlatformerCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Hero",
+            "PlatformerObject",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "PauseSoundCanal"
+          },
+          "parameters": [
+            "",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"HUD\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "DefaultMovement",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "RePlayMusicCanal"
+          },
+          "parameters": [
+            "",
+            "1"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -3988,6 +5108,17 @@
       "actions": [
         {
           "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "RockProjectile",
+            "Animation",
+            "=",
+            "\"ProjectileHit\""
+          ]
+        },
+        {
+          "type": {
             "value": "PlaySound"
           },
           "parameters": [
@@ -4000,13 +5131,19 @@
         },
         {
           "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+            "value": "Wait"
+          },
+          "parameters": [
+            ".41"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
           },
           "parameters": [
             "RockProjectile",
-            "Animation",
-            "=",
-            "\"ProjectileHit\""
+            ""
           ]
         }
       ]
@@ -4069,7 +5206,28 @@
           "parameters": [
             "Hero2",
             "Health",
-            "25",
+            "20",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lvl2projectile",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "e41e3576a8dab4fca0f7a330c8c485402564e1434f0b56cc881fdc15fc3ac0d7_Hit 2.aac",
             "",
             "",
             ""
