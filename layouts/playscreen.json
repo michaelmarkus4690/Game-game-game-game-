@@ -1036,7 +1036,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "BossFIght1",
+            "BossFight2",
             "True"
           ]
         }
@@ -1072,7 +1072,7 @@
             "value": "SetGlobalVariableAsBoolean"
           },
           "parameters": [
-            "BossFight2",
+            "BossFIght1",
             "True"
           ]
         }

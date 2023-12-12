@@ -236,6 +236,15 @@
           "parameters": [
             "BossFightLevel2Detect"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HealthBar",
+            ""
+          ]
         }
       ]
     },
@@ -268,22 +277,6 @@
           "parameters": [
             "",
             "\"Respawn\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "HealthBackground"
-          ]
-        },
-        {
-          "type": {
-            "value": "Cache"
-          },
-          "parameters": [
-            "HealthBar"
           ]
         },
         {
@@ -373,28 +366,22 @@
           "parameters": [
             "NewText5"
           ]
+        },
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "HealthBar",
+            ""
+          ]
         }
       ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::AddObjectWidthTween"
-          },
-          "parameters": [
-            "HealthBar",
-            "Tween",
-            "\"healthbar\"",
-            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500",
-            "\"easeInQuad\"",
-            "50",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
@@ -467,32 +454,6 @@
           "parameters": [
             "",
             "\"Respawn\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "Retry",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"Level123\"",
-            ""
           ]
         }
       ]
@@ -709,20 +670,6 @@
             ".1",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "Tween::AddObjectWidthTween"
-          },
-          "parameters": [
-            "HealthBar",
-            "Tween",
-            "\"healthbar\"",
-            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500",
-            "\"easeInQuad\"",
-            "50",
-            "no"
-          ]
         }
       ]
     },
@@ -755,22 +702,7 @@
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "Tween::AddObjectWidthTween"
-          },
-          "parameters": [
-            "HealthBar",
-            "Tween",
-            "\"healthbar\"",
-            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500",
-            "\"easeInQuad\"",
-            "50",
-            "no"
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -872,6 +804,23 @@
         }
       ],
       "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "HealthBar",
+            "Resizable",
+            "=",
+            "Hero2.Health::Health()/Hero2.Health::MaxHealth()*500"
+          ]
+        }
+      ]
     },
     {
       "colorB": 228,
@@ -5585,6 +5534,12 @@
             "BossFIght1",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -5617,6 +5572,18 @@
             "=",
             "levelonebossfight.Y()"
           ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Hero",
+            "=",
+            "levelonebossfight.X()",
+            "=",
+            "levelonebossfight.Y()"
+          ]
         }
       ]
     },
@@ -5631,9 +5598,58 @@
             "BossFight2",
             "True"
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "hasBelt",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetSceneVariableAsBoolean"
+          },
+          "parameters": [
+            "beltflash",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Hero2",
+            "=",
+            "BossFightLevel2Detect.X()",
+            "=",
+            "BossFightLevel2Detect.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "Hero",
+            "=",
+            "BossFightLevel2Detect.X()",
+            "=",
+            "BossFightLevel2Detect.Y()"
+          ]
+        }
+      ]
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
