@@ -5373,7 +5373,7 @@
         "alwaysLoaded": false,
         "file": "assets/Standing.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Standing.png\"}",
         "name": "Standing",
         "smoothed": true,
         "userAdded": true
@@ -6199,6 +6199,101 @@
         "name": "NewSprite239",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "assets/07 - the town where i got the magic bottle (chiptune).aac",
+        "kind": "audio",
+        "metadata": "",
+        "name": "2fcc3ba83d5dc889db171f33bd30a9888bb609d397fcba47ac4bb56ef3353492_07 - the town where i got the magic bottle (chiptune).aac",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Ragnar Random/Fakebit Chiptune Music/2fcc3ba83d5dc889db171f33bd30a9888bb609d397fcba47ac4bb56ef3353492_07 - the town where i got the magic bottle (chiptune).aac",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite240.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite240",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite241.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite241",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite242.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite242",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite243.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite243",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite244.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite244",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite245.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite245",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Standing2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Standing2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite246.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite246",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite247.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite247",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6238,6 +6333,22 @@
       "name": "Scrap",
       "type": "string",
       "value": "0"
+    },
+    {
+      "folded": true,
+      "name": "BossFIght1",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "BossFight2",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "BossFight3",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -6248,10 +6359,6 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level123"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/world"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
